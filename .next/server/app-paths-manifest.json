@@ -1,9 +1,6 @@
 {
-  "/blog/page": "app/blog/page.js",
-  "/kisisel/page": "app/kisisel/page.js",
   "/page": "app/page.js",
-  "/hakkimda/page": "app/hakkimda/page.js",
   "/is-hayati/page": "app/is-hayati/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/iletisim/page": "app/iletisim/page.js"
+  "/kisisel/page": "app/kisisel/page.js",
+  "/hakkimda/page": "app/hakkimda/page.js"
 }
