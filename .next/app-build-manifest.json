@@ -1,0 +1,78 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-0aae440acfa3b4bb.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-40634877ae3e8e9d.js",
+      "static/chunks/main-app-d0dd7d900b8ccb3e.js",
+      "static/chunks/app/_not-found/page-264f3f3986c60a34.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-0aae440acfa3b4bb.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-40634877ae3e8e9d.js",
+      "static/chunks/main-app-d0dd7d900b8ccb3e.js",
+      "static/css/90bfbf81288e817f.css",
+      "static/chunks/app/layout-5513ec73ab45bce9.js"
+    ],
+    "/blog/page": [
+      "static/chunks/webpack-0aae440acfa3b4bb.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-40634877ae3e8e9d.js",
+      "static/chunks/main-app-d0dd7d900b8ccb3e.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/239-640162831b5f60b2.js",
+      "static/chunks/67-e24c5215a306018c.js",
+      "static/chunks/app/blog/page-1cc964389ef1051d.js"
+    ],
+    "/hakkimda/page": [
+      "static/chunks/webpack-0aae440acfa3b4bb.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-40634877ae3e8e9d.js",
+      "static/chunks/main-app-d0dd7d900b8ccb3e.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/239-640162831b5f60b2.js",
+      "static/chunks/67-e24c5215a306018c.js",
+      "static/chunks/app/hakkimda/page-6739cda2ce9f831e.js"
+    ],
+    "/is-hayati/page": [
+      "static/chunks/webpack-0aae440acfa3b4bb.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-40634877ae3e8e9d.js",
+      "static/chunks/main-app-d0dd7d900b8ccb3e.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/239-640162831b5f60b2.js",
+      "static/chunks/67-e24c5215a306018c.js",
+      "static/chunks/app/is-hayati/page-efbc7fdca32838f4.js"
+    ],
+    "/iletisim/page": [
+      "static/chunks/webpack-0aae440acfa3b4bb.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-40634877ae3e8e9d.js",
+      "static/chunks/main-app-d0dd7d900b8ccb3e.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/67-e24c5215a306018c.js",
+      "static/chunks/app/iletisim/page-ae41388159eba980.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-0aae440acfa3b4bb.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-40634877ae3e8e9d.js",
+      "static/chunks/main-app-d0dd7d900b8ccb3e.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/239-640162831b5f60b2.js",
+      "static/chunks/67-e24c5215a306018c.js",
+      "static/chunks/app/page-eb5e5acb8eb8dd9c.js"
+    ],
+    "/kisisel/page": [
+      "static/chunks/webpack-0aae440acfa3b4bb.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-40634877ae3e8e9d.js",
+      "static/chunks/main-app-d0dd7d900b8ccb3e.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/239-640162831b5f60b2.js",
+      "static/chunks/67-e24c5215a306018c.js",
+      "static/chunks/app/kisisel/page-1dce79eed2ab8baa.js"
+    ]
+  }
+}
