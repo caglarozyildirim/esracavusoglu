@@ -10,28 +10,31 @@ export default function IsHayatiPage() {
     <>
       <Header />
       
-      {/* Hero Section - Manjit Style */}
-      <section className="min-h-[70vh] flex items-center" style={{ paddingTop: '72px' }}>
+      {/* Hero Section */}
+      <section className="bg-black text-white min-h-[70vh] flex items-center" style={{ paddingTop: '72px' }}>
         <div className="w-full px-[4vw] py-20">
           <div className="max-w-[1400px] mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div>
-                <h1 className="font-playfair text-black mb-8" 
+                <h1 className="font-josefin text-white" 
                     style={{ 
-                      fontSize: 'clamp(2.5rem, 5vw, 4rem)', 
+                      fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', 
                       fontWeight: 200,
-                      lineHeight: 1.2,
+                      lineHeight: 1.1,
                       letterSpacing: '-0.02em'
                     }}>
-                  <span style={{ color: '#E63946' }}>Bağımlılıktan Kurtulmanın</span>
-                  <br />
-                  <span style={{ fontWeight: 300 }}>Bilimsel Yolu.</span>
+                  Sağlıkta Vizyon. <span style={{ color: '#F1515C' }}>Stratejide Fark.</span>
                 </h1>
-                
-                <p className="font-playfair text-gray-600 mb-8 max-w-3xl"
+                <p className="font-josefin text-white/80 mt-8 max-w-3xl"
+                   style={{ fontSize: '1.25rem', lineHeight: 1.7, fontWeight: 200 }}>
+                  Uluslararası deneyimimle; bağımlılık tedavi programları tasarladım, 
+                  rehabilitasyon merkezlerinin kuruluşunda görev aldım, süpervizörlük yaptım 
+                  ve sağlık kurumları ile hükümetlerle iş birliği yürüttüm.
+                </p>
+                <p className="font-josefin text-white/80 mt-4 max-w-3xl"
                    style={{ fontSize: '1.125rem', lineHeight: 1.7, fontWeight: 200 }}>
-                  Yale metodolojisi ve 18 yıllık deneyimimle, bağımlılık tedavisinde 
-                  kanıta dayalı, kültürel olarak duyarlı çözümler sunuyorum.
+                  Türkiye'de standart hale gelen Rehabilitasyon Modeli'nin tasarımcısı ve 
+                  uygulayacısı olarak, bağımlılık tedavisinde kalıcı çözümler geliştirdim.
                 </p>
               </div>
               
@@ -49,230 +52,238 @@ export default function IsHayatiPage() {
         </div>
       </section>
 
-      {/* Services Overview */}
-      <section className="bg-white" style={{ padding: '5vmax 0' }}>
+      {/* Service Areas */}
+      <section className="bg-white" style={{ padding: '3.3vmax 0' }}>
         <div className="w-full px-[4vw]">
           <div className="max-w-[1400px] mx-auto">
-            <h2 className="font-playfair text-black mb-16 text-center" 
+            <h2 className="font-josefin text-black mb-8 text-center" 
                 style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 200, letterSpacing: '-0.02em' }}>
-              Hizmetlerim
+              Size Nasıl Destek Olabilirim?
             </h2>
             
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-[1px] bg-gray-200">
-              <div className="bg-white p-12">
-                <div className="w-14 h-14 flex items-center justify-center mb-6" 
-                     style={{ border: '2px solid #E63946', borderRadius: '12px' }}>
-                  <svg className="w-7 h-7" fill="none" stroke="#E63946" viewBox="0 0 24 24">
+            <p className="font-josefin text-gray-600 text-center max-w-[900px] mx-auto mb-16"
+               style={{ fontSize: '1.25rem', lineHeight: 1.7, fontWeight: 200 }}>
+              Uzmanlığım; bağımlılık tedavisi, sağlıklı yaşam, longevity ve biohacking üzerine 
+              bireylere, kurumlara ve şirketlere rehberlik etmek. İster kliniklere danışmanlık 
+              sağlarken, ister markalarla iş birliği yaparken, ister uluslararası sahnelerde 
+              konuşmacı olarak yer alırken amacım her zaman bilgiyle değer yaratmak ve 
+              dönüşüme ilham olmak.
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="text-center p-6">
+                <div className="w-16 h-16 mx-auto mb-6 flex items-center justify-center" 
+                     style={{ border: '2px solid #F1515C', borderRadius: '50%' }}>
+                  <svg className="w-8 h-8" fill="none" stroke="#F1515C" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} 
                           d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="font-playfair text-black mb-4" 
-                    style={{ fontSize: '1.75rem', fontWeight: 300 }}>
-                  Bireysel Terapi
+                <h3 className="font-josefin text-black mb-4" 
+                    style={{ fontSize: '1.5rem', fontWeight: 300 }}>
+                  Danışmanlık
                 </h3>
-                <p className="font-playfair text-gray-600 mb-6"
-                   style={{ fontSize: '1rem', lineHeight: 1.8 }}>
-                  Yale protokolleriyle kişiselleştirilmiş bağımlılık terapisi. 
-                  Travma odaklı, bilişsel-davranışçı yaklaşımlarla bütüncül tedavi.
+                <p className="font-josefin text-gray-600"
+                   style={{ fontSize: '0.95rem', lineHeight: 1.7 }}>
+                  Bağımlılık tedavi programı tasarımı, longevity klinikleri için model oluşturma.
                 </p>
-                <ul className="space-y-2">
-                  <li className="font-playfair text-gray-700 text-sm">• Bağımlılık Terapisi</li>
-                  <li className="font-playfair text-gray-700 text-sm">• Travma Terapisi</li>
-                  <li className="font-playfair text-gray-700 text-sm">• Aile Danışmanlığı</li>
-                  <li className="font-playfair text-gray-700 text-sm">• Online Seanslar</li>
-                </ul>
               </div>
               
-              <div className="bg-white p-12">
-                <div className="w-14 h-14 flex items-center justify-center mb-6" 
-                     style={{ border: '2px solid #E63946', borderRadius: '12px' }}>
-                  <svg className="w-7 h-7" fill="none" stroke="#E63946" viewBox="0 0 24 24">
+              <div className="text-center p-6">
+                <div className="w-16 h-16 mx-auto mb-6 flex items-center justify-center" 
+                     style={{ border: '2px solid #F1515C', borderRadius: '50%' }}>
+                  <svg className="w-8 h-8" fill="none" stroke="#F1515C" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} 
                           d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                   </svg>
                 </div>
-                <h3 className="font-playfair text-black mb-4" 
-                    style={{ fontSize: '1.75rem', fontWeight: 300 }}>
-                  Kurumsal Danışmanlık
+                <h3 className="font-josefin text-black mb-4" 
+                    style={{ fontSize: '1.5rem', fontWeight: 300 }}>
+                  Klinik Danışmanlık
                 </h3>
-                <p className="font-playfair text-gray-600 mb-6"
-                   style={{ fontSize: '1rem', lineHeight: 1.8 }}>
-                  Rehabilitasyon merkezleri için program geliştirme ve süpervizyon. 
-                  Bilimsel standartlarda tedavi protokolleri oluşturma.
+                <p className="font-josefin text-gray-600"
+                   style={{ fontSize: '0.95rem', lineHeight: 1.7 }}>
+                  Rehabilitasyon merkezleri için klinik gözetim ve program geliştirme.
                 </p>
-                <ul className="space-y-2">
-                  <li className="font-playfair text-gray-700 text-sm">• Program Tasarımı</li>
-                  <li className="font-playfair text-gray-700 text-sm">• Ekip Eğitimi</li>
-                  <li className="font-playfair text-gray-700 text-sm">• Süpervizyon</li>
-                  <li className="font-playfair text-gray-700 text-sm">• Kalite Standartları</li>
-                </ul>
               </div>
               
-              <div className="bg-white p-12">
-                <div className="w-14 h-14 flex items-center justify-center mb-6" 
-                     style={{ border: '2px solid #E63946', borderRadius: '12px' }}>
-                  <svg className="w-7 h-7" fill="none" stroke="#E63946" viewBox="0 0 24 24">
+              <div className="text-center p-6">
+                <div className="w-16 h-16 mx-auto mb-6 flex items-center justify-center" 
+                     style={{ border: '2px solid #F1515C', borderRadius: '50%' }}>
+                  <svg className="w-8 h-8" fill="none" stroke="#F1515C" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} 
-                          d="M12 14l9-5-9-5-9 5 9 5z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} 
-                          d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                          d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                 </div>
-                <h3 className="font-playfair text-black mb-4" 
-                    style={{ fontSize: '1.75rem', fontWeight: 300 }}>
-                  Eğitim & Seminerler
+                <h3 className="font-josefin text-black mb-4" 
+                    style={{ fontSize: '1.5rem', fontWeight: 300 }}>
+                  İş Birlikleri
                 </h3>
-                <p className="font-playfair text-gray-600 mb-6"
-                   style={{ fontSize: '1rem', lineHeight: 1.8 }}>
-                  Profesyoneller ve aileler için bağımlılık farkındalığı eğitimleri. 
-                  Yale deneyimimle zenginleştirilmiş içerikler.
+                <p className="font-josefin text-gray-600"
+                   style={{ fontSize: '0.95rem', lineHeight: 1.7 }}>
+                  Ayık Kafa Podcast ve Longevilab aracılığıyla markalar ve kurumlarla ortak projeler geliştirme.
                 </p>
-                <ul className="space-y-2">
-                  <li className="font-playfair text-gray-700 text-sm">• Profesyonel Eğitimler</li>
-                  <li className="font-playfair text-gray-700 text-sm">• Aile Seminerleri</li>
-                  <li className="font-playfair text-gray-700 text-sm">• Okul Programları</li>
-                  <li className="font-playfair text-gray-700 text-sm">• Online Webinarlar</li>
-                </ul>
               </div>
               
-              <div className="bg-white p-12">
-                <div className="w-14 h-14 flex items-center justify-center mb-6" 
-                     style={{ border: '2px solid #E63946', borderRadius: '12px' }}>
-                  <svg className="w-7 h-7" fill="none" stroke="#E63946" viewBox="0 0 24 24">
+              <div className="text-center p-6">
+                <div className="w-16 h-16 mx-auto mb-6 flex items-center justify-center" 
+                     style={{ border: '2px solid #F1515C', borderRadius: '50%' }}>
+                  <svg className="w-8 h-8" fill="none" stroke="#F1515C" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} 
-                          d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                          d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
                   </svg>
                 </div>
-                <h3 className="font-playfair text-black mb-4" 
-                    style={{ fontSize: '1.75rem', fontWeight: 300 }}>
-                  Biyohacking Protokolleri
+                <h3 className="font-josefin text-black mb-4" 
+                    style={{ fontSize: '1.5rem', fontWeight: 300 }}>
+                  Konuşmacı
                 </h3>
-                <p className="font-playfair text-gray-600 mb-6"
-                   style={{ fontSize: '1rem', lineHeight: 1.8 }}>
-                  Longevilab'da uyguladığımız en güncel biyohacking ve uzun ömür protokolleri. 
-                  NAD+ terapileri, peptid protokolleri ve genetik optimizasyon.
+                <p className="font-josefin text-gray-600"
+                   style={{ fontSize: '0.95rem', lineHeight: 1.7 }}>
+                  Konferanslar, paneller ve şirket etkinliklerinde bağımlılık, sağlıklı yaşam, longevity ve biohacking üzerine konuşmalar.
                 </p>
-                <ul className="space-y-2">
-                  <li className="font-playfair text-gray-700 text-sm">• NAD+ Terapileri</li>
-                  <li className="font-playfair text-gray-700 text-sm">• Peptid Protokolleri</li>
-                  <li className="font-playfair text-gray-700 text-sm">• Gen Testleri</li>
-                  <li className="font-playfair text-gray-700 text-sm">• Performans Optimizasyonu</li>
-                </ul>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Experience Timeline */}
-      <section className="bg-gray-50" style={{ padding: '5vmax 0' }}>
+      {/* Experience & Vision */}
+      <section className="bg-gray-50" style={{ padding: '3.3vmax 0' }}>
         <div className="w-full px-[4vw]">
           <div className="max-w-[1400px] mx-auto">
-            <h2 className="font-playfair text-black mb-16 text-center" 
+            <h2 className="font-josefin text-black mb-16 text-center" 
                 style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 200, letterSpacing: '-0.02em' }}>
-              Profesyonel Yolculuğum
+              Deneyim & Vizyon
             </h2>
             
             <div className="max-w-[900px] mx-auto">
-              <div className="space-y-12">
-                <div className="flex gap-8">
-                  <div className="font-playfair text-gray-500 text-sm" style={{ minWidth: '100px' }}>
-                    2022 - Günümüz
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="font-playfair text-black mb-2" style={{ fontSize: '1.5rem', fontWeight: 300 }}>
-                      Longevilab
-                    </h3>
-                    <p className="font-playfair text-gray-600 mb-2" style={{ fontSize: '1rem' }}>
-                      Kurucu & CEO
-                    </p>
-                    <p className="font-playfair text-gray-600" style={{ fontSize: '0.875rem', lineHeight: 1.8 }}>
-                      Türkiye'nin ilk biyohacking ve uzun ömür kliniği. En güncel longevity 
-                      protokollerini Türkiye'ye getirerek, optimal sağlık ve performans alanında öncü çalışmalar.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex gap-8">
-                  <div className="font-playfair text-gray-500 text-sm" style={{ minWidth: '100px' }}>
-                    2018 - Günümüz
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="font-playfair text-black mb-2" style={{ fontSize: '1.5rem', fontWeight: 300 }}>
-                      ÇABAÇAD
-                    </h3>
-                    <p className="font-playfair text-gray-600 mb-2" style={{ fontSize: '1rem' }}>
-                      Kurucu & Başkan
-                    </p>
-                    <p className="font-playfair text-gray-600" style={{ fontSize: '0.875rem', lineHeight: 1.8 }}>
-                      Çocuk ve Aile Bağımlılıkla Mücadele Derneği. 500'den fazla aileye 
-                      ücretsiz danışmanlık ve eğitim desteği.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex gap-8">
-                  <div className="font-playfair text-gray-500 text-sm" style={{ minWidth: '100px' }}>
-                    2013 - 2018
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="font-playfair text-black mb-2" style={{ fontSize: '1.5rem', fontWeight: 300 }}>
-                      Özel Pratik
-                    </h3>
-                    <p className="font-playfair text-gray-600 mb-2" style={{ fontSize: '1rem' }}>
-                      Bağımlılık Terapisti
-                    </p>
-                    <p className="font-playfair text-gray-600" style={{ fontSize: '0.875rem', lineHeight: 1.8 }}>
-                      New York ve İstanbul'da özel danışmanlık. Bireysel ve grup terapileri 
-                      ile yüzlerce kişinin iyileşme yolculuğuna tanıklık.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex gap-8">
-                  <div className="font-playfair text-gray-500 text-sm" style={{ minWidth: '100px' }}>
-                    2007 - 2012
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="font-playfair text-black mb-2" style={{ fontSize: '1.5rem', fontWeight: 300 }}>
-                      Yale Üniversitesi
-                    </h3>
-                    <p className="font-playfair text-gray-600 mb-2" style={{ fontSize: '1rem' }}>
-                      Araştırma Görevlisi
-                    </p>
-                    <p className="font-playfair text-gray-600" style={{ fontSize: '0.875rem', lineHeight: 1.8 }}>
-                      Bağımlılık nörobiyolojisi üzerine araştırmalar. Klinik protokol 
-                      geliştirme ve kanıta dayalı tedavi yaklaşımları.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <ul className="space-y-6 mb-12">
+                <li className="flex items-start">
+                  <span className="w-2 h-2 bg-black rounded-full mr-4 mt-2"></span>
+                  <span className="font-josefin text-gray-700" style={{ fontSize: '1.125rem', lineHeight: 1.8 }}>
+                    Türkiye Rehabilitasyon Modeli'ni tasarladım ve uyguladım; bugün ülke genelinde standart kabul ediliyor.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="w-2 h-2 bg-black rounded-full mr-4 mt-2"></span>
+                  <span className="font-josefin text-gray-700" style={{ fontSize: '1.125rem', lineHeight: 1.8 }}>
+                    Gaziantep Oya Bahadır Yüksel Rehabilitasyon Merkezi'nde üst düzey danışman ve Operasyon Başkan Yardımcısı olarak çalıştım.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="w-2 h-2 bg-black rounded-full mr-4 mt-2"></span>
+                  <span className="font-josefin text-gray-700" style={{ fontSize: '1.125rem', lineHeight: 1.8 }}>
+                    Yale Üniversitesi Tıp Fakültesi Klinik Danışma Kurulu'nda yer aldım ve Yale Denetim Programı'nda Uluslararası Gelişim Danışmanı oldum.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="w-2 h-2 bg-black rounded-full mr-4 mt-2"></span>
+                  <span className="font-josefin text-gray-700" style={{ fontSize: '1.125rem', lineHeight: 1.8 }}>
+                    2016'da Viyana'da Birleşmiş Milletler Uyuşturucu ve Suç Ofisi (UNODC) etkinliğinde moderatörlük, 2013'te Singapur APBAM Konferansı'nda panelistlik yaptım.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="w-2 h-2 bg-black rounded-full mr-4 mt-2"></span>
+                  <span className="font-josefin text-gray-700" style={{ fontSize: '1.125rem', lineHeight: 1.8 }}>
+                    Çağdaş Bağımlılık Çalışmaları Derneği'ni (ÇABAÇAD) kurdum.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="w-2 h-2 bg-black rounded-full mr-4 mt-2"></span>
+                  <span className="font-josefin text-gray-700" style={{ fontSize: '1.125rem', lineHeight: 1.8 }}>
+                    Türkiye'de bağımlılık tedavisi üzerine yazdığım makaleler Başbakanlık tarafından onurlandırıldı.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="w-2 h-2 bg-black rounded-full mr-4 mt-2"></span>
+                  <span className="font-josefin text-gray-700" style={{ fontSize: '1.125rem', lineHeight: 1.8 }}>
+                    Ayık Kafa Podcast ve Longevilab ile sağlıklı yaşam, longevity, bağımlılık ve biohacking alanlarında içerikler üretiyor ve farkındalık yaratıyorum.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="w-2 h-2 bg-black rounded-full mr-4 mt-2"></span>
+                  <span className="font-josefin text-gray-700" style={{ fontSize: '1.125rem', lineHeight: 1.8 }}>
+                    Avrupa'nın önde gelen biohacker'larından biri olarak koruyucu sağlığa yeni bir vizyon kazandırdım.
+                  </span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="bg-black text-white" style={{ padding: '5vmax 0' }}>
+      {/* Target Audience */}
+      <section className="bg-white" style={{ padding: '3.3vmax 0' }}>
         <div className="w-full px-[4vw]">
           <div className="max-w-[1400px] mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              <div>
-                <div className="font-playfair text-6xl mb-4" style={{ fontWeight: 200 }}>500+</div>
-                <p className="font-playfair text-white/80 text-sm">Tedavi Edilen Danışan</p>
+            <h2 className="font-josefin text-black mb-16 text-center" 
+                style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 200, letterSpacing: '-0.02em' }}>
+              Kimlerle Çalışıyorum
+            </h2>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center" 
+                     style={{ border: '2px solid #F1515C', borderRadius: '50%' }}>
+                  <svg className="w-10 h-10" fill="none" stroke="#F1515C" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} 
+                          d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                  </svg>
+                </div>
+                <h3 className="font-josefin text-black mb-3" style={{ fontSize: '1.5rem', fontWeight: 300 }}>
+                  Bireyler
+                </h3>
+                <p className="font-josefin text-gray-600" style={{ fontSize: '0.95rem', lineHeight: 1.7 }}>
+                  Bağımlılık tedavisi, sağlıklı yaşam ve longevity yolculuğunda kişisel rehberlik arayan herkes.
+                </p>
               </div>
-              <div>
-                <div className="font-playfair text-6xl mb-4" style={{ fontWeight: 200 }}>50+</div>
-                <p className="font-playfair text-white/80 text-sm">Kurum Danışmanlığı</p>
+              
+              <div className="text-center">
+                <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center" 
+                     style={{ border: '2px solid #F1515C', borderRadius: '50%' }}>
+                  <svg className="w-10 h-10" fill="none" stroke="#F1515C" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} 
+                          d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  </svg>
+                </div>
+                <h3 className="font-josefin text-black mb-3" style={{ fontSize: '1.5rem', fontWeight: 300 }}>
+                  Şirketler ve Kurumlar
+                </h3>
+                <p className="font-josefin text-gray-600" style={{ fontSize: '0.95rem', lineHeight: 1.7 }}>
+                  Çalışan sağlığı, bağımlılıkla mücadele, performans, sağlık ve yaşam dengesi üzerine danışmanlık veya konuşmacı desteği isteyen organizasyonlar.
+                </p>
               </div>
-              <div>
-                <div className="font-playfair text-6xl mb-4" style={{ fontWeight: 200 }}>100+</div>
-                <p className="font-playfair text-white/80 text-sm">Eğitim & Seminer</p>
+              
+              <div className="text-center">
+                <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center" 
+                     style={{ border: '2px solid #F1515C', borderRadius: '50%' }}>
+                  <svg className="w-10 h-10" fill="none" stroke="#F1515C" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} 
+                          d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                  </svg>
+                </div>
+                <h3 className="font-josefin text-black mb-3" style={{ fontSize: '1.5rem', fontWeight: 300 }}>
+                  Sağlık Profesyonelleri ve Klinikler
+                </h3>
+                <p className="font-josefin text-gray-600" style={{ fontSize: '0.95rem', lineHeight: 1.7 }}>
+                  Bağımlılık tedavi programı tasarımı, rehabilitasyon merkezi kurulumu ve klinik danışmanlık desteği arayan uzmanlar ve merkezler.
+                </p>
               </div>
-              <div>
-                <div className="font-playfair text-6xl mb-4" style={{ fontWeight: 200 }}>15+</div>
-                <p className="font-playfair text-white/80 text-sm">Yıllık Deneyim</p>
+              
+              <div className="text-center">
+                <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center" 
+                     style={{ border: '2px solid #F1515C', borderRadius: '50%' }}>
+                  <svg className="w-10 h-10" fill="none" stroke="#F1515C" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} 
+                          d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <h3 className="font-josefin text-black mb-3" style={{ fontSize: '1.5rem', fontWeight: 300 }}>
+                  Markalar ve Medya
+                </h3>
+                <p className="font-josefin text-gray-600" style={{ fontSize: '0.95rem', lineHeight: 1.7 }}>
+                  Ayık Kafa Podcast ve Longevilab aracılığıyla toplumsal farkındalık ve sağlık temalı projelerde iş birliği yapmak isteyen markalar ve medya kuruluşları.
+                </p>
               </div>
             </div>
           </div>
@@ -280,28 +291,29 @@ export default function IsHayatiPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-white" style={{ padding: '5vmax 0' }}>
+      <section className="bg-black text-white" style={{ padding: '5vmax 0' }}>
         <div className="w-full px-[4vw]">
           <div className="max-w-[900px] mx-auto text-center">
-            <h2 className="font-playfair text-black mb-8" 
+            <h2 className="font-josefin text-white mb-8" 
                 style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 200, letterSpacing: '-0.02em' }}>
-              Profesyonel Destek İçin
+              "Birlikte çalışalım. Değerli ve anlamlı projeler için yola çıkıyorsanız, gelin konuşalım."
             </h2>
-            <p className="font-playfair text-gray-600 mb-12"
+            <p className="font-josefin text-white/80 mb-12"
                style={{ fontSize: '1.25rem', lineHeight: 1.7, fontWeight: 200 }}>
-              Bireysel terapi, kurumsal danışmanlık veya eğitim programları için benimle iletişime geçin.
+              Uluslararası deneyimimle bireylere, şirketlere ve kurumlara rehberlik ediyor; 
+              bilgiyi stratejiye, stratejiyi de somut etkiye dönüştürüyorum.
             </p>
             <Link href="/iletisim" 
-                  className="inline-block font-playfair text-black hover:text-gray-600 transition-all"
+                  className="inline-block font-josefin text-white hover:text-gray-300 transition-all"
                   style={{ 
                     fontSize: '0.75rem', 
                     fontWeight: 300, 
                     letterSpacing: '0.2em', 
                     textTransform: 'uppercase',
-                    borderBottom: '1px solid #000',
+                    borderBottom: '1px solid #fff',
                     paddingBottom: '4px'
                   }}>
-              HADİ İLETİŞİME GEÇELİM
+              İŞ BİRLİĞİ İÇİN BENİMLE İLETİŞİME GEÇİN
             </Link>
           </div>
         </div>

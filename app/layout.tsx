@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Playfair_Display } from "next/font/google";
+import { Josefin_Sans } from "next/font/google";
 import "./globals.css";
 
-const playfair = Playfair_Display({ 
+const josefin = Josefin_Sans({ 
   subsets: ["latin"],
   display: 'swap',
-  variable: '--font-playfair',
-  weight: ['400', '500', '600', '700', '800', '900'],
+  variable: '--font-josefin',
+  weight: ['100', '200', '300', '400', '500', '600', '700'],
 });
 
 export const metadata: Metadata = {
@@ -20,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="tr" className={playfair.variable}>
-      <body className={`${playfair.className} antialiased`}>
+    <html lang="tr" className={josefin.variable}>
+      <body className={`${josefin.className} antialiased`}>
         {children}
       </body>
     </html>

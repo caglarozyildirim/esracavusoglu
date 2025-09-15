@@ -17,33 +17,29 @@ export default function Home() {
             
             {/* Text Column */}
             <div>
-              <h1 className="font-playfair text-black mb-8" 
+              <h1 className="font-josefin text-black mb-8" 
                   style={{ 
                     fontSize: 'clamp(2.5rem, 6vw, 5rem)', 
                     fontWeight: 200,
                     lineHeight: 1.2,
                     letterSpacing: '-0.02em'
                   }}>
-                <span style={{ color: '#E63946' }}>Dr. Esra Çavuşoğlu.</span>
-                <br />
-                <span style={{ fontWeight: 200 }}>Psikolog, Bağımlılık Uzmanı, Danışman & Sağlık Savunucusu.</span>
+                <span style={{ color: '#E63946' }}>Dr. Esra Çavuşoğlu, PhD</span>
               </h1>
               
-              <p className="font-playfair text-gray-600 mb-8"
-                 style={{ fontSize: '1.125rem', lineHeight: 1.7, fontWeight: 200 }}>
-                Ben <span style={{ color: '#E63946' }}>Dr. Esra Çavuşoğlu</span> — Yale Üniversitesi mezunu, 18 yıldır ayık, 
-                bağımlılık terapisti ve sağlık, eğitim ve teknolojinin kesişiminde çalışan bir danışman.
+              <p className="font-josefin text-gray-600 mb-8"
+                 style={{ fontSize: '1.5rem', lineHeight: 1.5, fontWeight: 300 }}>
+                Sağlık Savunucusu | Girişimci | Danışman | Biohacker
               </p>
               
-              <p className="font-playfair text-gray-600 mb-12"
-                 style={{ fontSize: '1rem', lineHeight: 1.7 }}>
-                ÇABAÇAD ve Longevilab'ın kurucusuyum. Bağımlılık tedavisi, kişisel gelişim ve 
-                biyohacking alanlarında 15 yılı aşkın deneyimle, bireylerin ve kurumların 
-                dönüşüm yolculuklarına rehberlik ediyorum.
+              <p className="font-josefin text-gray-600 mb-12"
+                 style={{ fontSize: '1.125rem', lineHeight: 1.7, fontWeight: 200 }}>
+                Bağımlılık tedavisi odaklı klinik psikolog, Avrupa'nın önde gelen biohacker'larından, 
+                Yale Üniversitesi mezunu ve Türkiye Rehabilitasyon Modeli'nin tasarımcısıyım.
               </p>
               
               <Link href="/iletisim" 
-                    className="inline-block font-playfair text-black hover:text-gray-600 transition-all"
+                    className="inline-block font-josefin text-black hover:text-gray-600 transition-all"
                     style={{ 
                       fontSize: '0.75rem', 
                       fontWeight: 200, 
@@ -90,7 +86,7 @@ export default function Home() {
                 
                 {/* Content */}
                 <div className="space-y-3">
-                  <h3 className="font-playfair text-black" 
+                  <h3 className="font-josefin text-black" 
                       style={{ 
                         fontSize: '1.6rem', 
                         fontWeight: 300,
@@ -99,7 +95,7 @@ export default function Home() {
                       }}>
                     Psikoloji & Terapi
                   </h3>
-                  <p className="font-playfair text-gray-600" 
+                  <p className="font-josefin text-gray-600" 
                      style={{ 
                        fontSize: '1rem', 
                        lineHeight: 1.7,
@@ -111,7 +107,7 @@ export default function Home() {
                 
                 {/* Learn More Link */}
                 <div className="flex items-center mt-6 text-black/60 group-hover:text-black transition-colors">
-                  <span className="font-playfair" 
+                  <span className="font-josefin" 
                         style={{ 
                           fontSize: '0.9rem', 
                           fontWeight: 300,
@@ -140,7 +136,7 @@ export default function Home() {
                 
                 {/* Content */}
                 <div className="space-y-3">
-                  <h3 className="font-playfair text-black" 
+                  <h3 className="font-josefin text-black" 
                       style={{ 
                         fontSize: '1.6rem', 
                         fontWeight: 300,
@@ -149,7 +145,7 @@ export default function Home() {
                       }}>
                     Biyohacking & Longevilab
                   </h3>
-                  <p className="font-playfair text-gray-600" 
+                  <p className="font-josefin text-gray-600" 
                      style={{ 
                        fontSize: '1rem', 
                        lineHeight: 1.7,
@@ -161,7 +157,7 @@ export default function Home() {
                 
                 {/* Learn More Link */}
                 <div className="flex items-center mt-6 text-black/60 group-hover:text-black transition-colors">
-                  <span className="font-playfair" 
+                  <span className="font-josefin" 
                         style={{ 
                           fontSize: '0.9rem', 
                           fontWeight: 300,
@@ -190,7 +186,7 @@ export default function Home() {
                 
                 {/* Content */}
                 <div className="space-y-3">
-                  <h3 className="font-playfair text-black" 
+                  <h3 className="font-josefin text-black" 
                       style={{ 
                         fontSize: '1.6rem', 
                         fontWeight: 300,
@@ -199,7 +195,7 @@ export default function Home() {
                       }}>
                     Ayık Kafa Podcast
                   </h3>
-                  <p className="font-playfair text-gray-600" 
+                  <p className="font-josefin text-gray-600" 
                      style={{ 
                        fontSize: '1rem', 
                        lineHeight: 1.7,
@@ -211,7 +207,7 @@ export default function Home() {
                 
                 {/* Learn More Link */}
                 <div className="flex items-center mt-6 text-black/60 group-hover:text-black transition-colors">
-                  <span className="font-playfair" 
+                  <span className="font-josefin" 
                         style={{ 
                           fontSize: '0.9rem', 
                           fontWeight: 300,
@@ -240,7 +236,7 @@ export default function Home() {
                 
                 {/* Content */}
                 <div className="space-y-3">
-                  <h3 className="font-playfair text-black" 
+                  <h3 className="font-josefin text-black" 
                       style={{ 
                         fontSize: '1.6rem', 
                         fontWeight: 300,
@@ -249,7 +245,7 @@ export default function Home() {
                       }}>
                     Eğitim & Danışmanlık
                   </h3>
-                  <p className="font-playfair text-gray-600" 
+                  <p className="font-josefin text-gray-600" 
                      style={{ 
                        fontSize: '1rem', 
                        lineHeight: 1.7,
@@ -261,7 +257,7 @@ export default function Home() {
                 
                 {/* Learn More Link */}
                 <div className="flex items-center mt-6 text-black/60 group-hover:text-black transition-colors">
-                  <span className="font-playfair" 
+                  <span className="font-josefin" 
                         style={{ 
                           fontSize: '0.9rem', 
                           fontWeight: 300,
@@ -285,11 +281,11 @@ export default function Home() {
       <section className="bg-black text-white" style={{ padding: '5vmax 0' }}>
         <div className="w-full px-[4vw]">
           <div className="max-w-[900px] mx-auto text-center">
-            <blockquote className="font-playfair italic" 
+            <blockquote className="font-josefin italic" 
                         style={{ fontSize: 'clamp(1.5rem, 3vw, 2.5rem)', lineHeight: 1.4 }}>
               "İyileşme bir varış noktası değil, sürekli bir yolculuktur."
             </blockquote>
-            <p className="font-playfair mt-8 text-white/80" style={{ fontSize: '1rem', letterSpacing: '0.1em' }}>
+            <p className="font-josefin mt-8 text-white/80" style={{ fontSize: '1rem', letterSpacing: '0.1em' }}>
               — DR. ESRA ÇAVUŞOĞLU
             </p>
           </div>
@@ -301,22 +297,22 @@ export default function Home() {
         <div className="w-full px-[4vw]">
           <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="font-playfair text-black mb-8" 
+              <h2 className="font-josefin text-black mb-8" 
                   style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: 200, letterSpacing: '-0.02em' }}>
                 18 Yıldır Ayık, Yale Mezunu, CASAC-T Sertifikalı
               </h2>
-              <p className="font-playfair text-gray-600 mb-6"
+              <p className="font-josefin text-gray-600 mb-6"
                  style={{ fontSize: '1.125rem', lineHeight: 1.7, fontWeight: 200 }}>
                 Yale Üniversitesi'nden mezun olduktan sonra, kendi iyileşme yolculuğumu 
                 başkalarının dönüşümüne rehberlik etmek için kullandım.
               </p>
-              <p className="font-playfair text-gray-600 mb-8"
+              <p className="font-josefin text-gray-600 mb-8"
                  style={{ fontSize: '1rem', lineHeight: 1.7 }}>
                 ÇABAÇAD'ı kurarak Türkiye'de bağımlılık tedavisine yenilikçi yaklaşımlar getirdim. 
                 Longevilab ile biyohacking ve uzun ömür protokollerini Türkiye'ye tanıttım.
               </p>
               <Link href="/hakkimda" 
-                    className="inline-block font-playfair text-black hover:text-gray-600 transition-all"
+                    className="inline-block font-josefin text-black hover:text-gray-600 transition-all"
                     style={{ 
                       fontSize: '0.75rem', 
                       fontWeight: 200, 
@@ -330,20 +326,20 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white p-8 text-center">
-                <div className="font-playfair text-4xl mb-2" style={{ fontWeight: 200 }}>18+</div>
-                <p className="font-playfair text-sm text-gray-600">Yıllık Ayıklık</p>
+                <div className="font-josefin text-4xl mb-2" style={{ fontWeight: 200 }}>18+</div>
+                <p className="font-josefin text-sm text-gray-600">Yıllık Ayıklık</p>
               </div>
               <div className="bg-white p-8 text-center">
-                <div className="font-playfair text-4xl mb-2" style={{ fontWeight: 200 }}>500+</div>
-                <p className="font-playfair text-sm text-gray-600">Danışan</p>
+                <div className="font-josefin text-4xl mb-2" style={{ fontWeight: 200 }}>500+</div>
+                <p className="font-josefin text-sm text-gray-600">Danışan</p>
               </div>
               <div className="bg-white p-8 text-center">
-                <div className="font-playfair text-4xl mb-2" style={{ fontWeight: 200 }}>100+</div>
-                <p className="font-playfair text-sm text-gray-600">Podcast Bölümü</p>
+                <div className="font-josefin text-4xl mb-2" style={{ fontWeight: 200 }}>100+</div>
+                <p className="font-josefin text-sm text-gray-600">Podcast Bölümü</p>
               </div>
               <div className="bg-white p-8 text-center">
-                <div className="font-playfair text-4xl mb-2" style={{ fontWeight: 200 }}>2</div>
-                <p className="font-playfair text-sm text-gray-600">Kurulan Şirket</p>
+                <div className="font-josefin text-4xl mb-2" style={{ fontWeight: 200 }}>2</div>
+                <p className="font-josefin text-sm text-gray-600">Kurulan Şirket</p>
               </div>
             </div>
           </div>

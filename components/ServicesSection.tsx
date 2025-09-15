@@ -66,7 +66,7 @@ export default function ServicesSection() {
                 
                 {/* Content */}
                 <div className="space-y-3">
-                  <h3 className="font-playfair text-black" 
+                  <h3 className="font-josefin text-black" 
                       style={{ 
                         fontSize: '1.6rem', 
                         fontWeight: 300,
@@ -75,7 +75,7 @@ export default function ServicesSection() {
                       }}>
                     {service.title}
                   </h3>
-                  <p className="font-playfair text-gray-600" 
+                  <p className="font-josefin text-gray-600" 
                      style={{ 
                        fontSize: '1rem', 
                        lineHeight: 1.7,
@@ -87,7 +87,7 @@ export default function ServicesSection() {
                 
                 {/* Learn More Link */}
                 <div className="flex items-center mt-6 text-black/60 group-hover:text-black transition-colors">
-                  <span className="font-playfair" 
+                  <span className="font-josefin" 
                         style={{ 
                           fontSize: '0.9rem', 
                           fontWeight: 300,

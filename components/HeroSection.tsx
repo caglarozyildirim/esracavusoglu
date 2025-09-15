@@ -9,7 +9,7 @@ export default function HeroSection() {
         <div className="max-w-[1400px] mx-auto">
           <div className="space-y-12">
             {/* Main Heading */}
-            <h1 className="font-playfair text-white" 
+            <h1 className="font-josefin text-white" 
                 style={{ 
                   fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', 
                   fontWeight: 200,
@@ -25,7 +25,7 @@ export default function HeroSection() {
 
             {/* Description */}
             <div className="max-w-4xl">
-              <p className="font-playfair text-white/80 sqsrte-large" 
+              <p className="font-josefin text-white/80 sqsrte-large" 
                  style={{ 
                    fontSize: '1.25rem', 
                    lineHeight: 1.7,
@@ -34,7 +34,7 @@ export default function HeroSection() {
                 Ben <span style={{ color: '#E63946' }}>Dr. Esra Çavuşoğlu</span> — Yale Üniversitesi'nde eğitim almış, 
                 New York sertifikalı bağımlılık terapisti ve <strong style={{ color: '#E63946' }}>sağlık, eğitim ve teknoloji</strong> kesişiminde çalışan bir girişimci.
               </p>
-              <p className="font-playfair text-white/80 sqsrte-large mt-6" 
+              <p className="font-josefin text-white/80 sqsrte-large mt-6" 
                  style={{ 
                    fontSize: '1.25rem', 
                    lineHeight: 1.7,
@@ -50,7 +50,7 @@ export default function HeroSection() {
             <div className="pt-8">
               <Link 
                 href="/iletisim"
-                className="inline-block font-playfair text-white hover:text-white/70 transition-all"
+                className="inline-block font-josefin text-white hover:text-white/70 transition-all"
                 style={{ 
                   fontSize: '0.75rem', 
                   fontWeight: 300, 

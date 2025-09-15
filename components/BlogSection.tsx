@@ -35,7 +35,7 @@ export default function BlogSection() {
           
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="font-playfair text-black" 
+            <h2 className="font-josefin text-black" 
                 style={{ 
                   fontSize: 'clamp(2rem, 3.5vw, 3rem)', 
                   fontWeight: 200,
@@ -45,7 +45,7 @@ export default function BlogSection() {
                 }}>
               Son <span style={{ color: '#E63946' }}>Yazılarım</span>
             </h2>
-            <p className="font-playfair text-gray-600 max-w-3xl mx-auto"
+            <p className="font-josefin text-gray-600 max-w-3xl mx-auto"
                style={{ 
                  fontSize: '1.25rem', 
                  lineHeight: 1.7,
@@ -66,7 +66,7 @@ export default function BlogSection() {
                 {/* Image Placeholder */}
                 <div className="aspect-[4/3] bg-gray-100">
                   <div className="w-full h-full flex items-center justify-center">
-                    <span className="font-playfair text-gray-400"
+                    <span className="font-josefin text-gray-400"
                           style={{ fontSize: '3rem', fontWeight: 200 }}>
                       {post.category.charAt(0)}
                     </span>
@@ -77,7 +77,7 @@ export default function BlogSection() {
                 <div className="p-8">
                   {/* Category & Meta */}
                   <div className="flex items-center mb-4">
-                    <span className="font-playfair text-black/60"
+                    <span className="font-josefin text-black/60"
                           style={{ 
                             fontSize: '0.75rem',
                             fontWeight: 300,
@@ -87,14 +87,14 @@ export default function BlogSection() {
                       {post.category}
                     </span>
                     <span className="mx-3 text-black/30">•</span>
-                    <span className="font-playfair text-black/60"
+                    <span className="font-josefin text-black/60"
                           style={{ fontSize: '0.875rem', fontWeight: 300 }}>
                       {post.date}
                     </span>
                   </div>
                   
                   {/* Title */}
-                  <h3 className="font-playfair text-black mb-4 group-hover:text-black/80 transition-colors">
+                  <h3 className="font-josefin text-black mb-4 group-hover:text-black/80 transition-colors">
                     <Link href={post.href} 
                           style={{ 
                             fontSize: '1.5rem',
@@ -107,7 +107,7 @@ export default function BlogSection() {
                   </h3>
                   
                   {/* Excerpt */}
-                  <p className="font-playfair text-gray-600 mb-6"
+                  <p className="font-josefin text-gray-600 mb-6"
                      style={{ 
                        fontSize: '1rem',
                        lineHeight: 1.7,
@@ -118,13 +118,13 @@ export default function BlogSection() {
                   
                   {/* Read More */}
                   <div className="flex items-center justify-between">
-                    <span className="font-playfair text-gray-500"
+                    <span className="font-josefin text-gray-500"
                           style={{ fontSize: '0.875rem', fontWeight: 300 }}>
                       {post.readTime}
                     </span>
                     <Link 
                       href={post.href}
-                      className="font-playfair text-black hover:text-black/60 transition-colors inline-flex items-center"
+                      className="font-josefin text-black hover:text-black/60 transition-colors inline-flex items-center"
                       style={{ 
                         fontSize: '0.75rem',
                         fontWeight: 300,
@@ -148,7 +148,7 @@ export default function BlogSection() {
           <div className="text-center">
             <Link 
               href="/blog"
-              className="inline-block font-playfair text-black hover:text-black/60 transition-all"
+              className="inline-block font-josefin text-black hover:text-black/60 transition-all"
               style={{ 
                 fontSize: '0.75rem',
                 fontWeight: 300,

@@ -33,7 +33,7 @@ export default function PageHeroSlider({ slides, ctaText = "İLETİŞİM", ctaLi
             {/* Left Content */}
             <div className="space-y-8 lg:pr-12">
               <div className="space-y-8">
-                <h1 className="text-5xl md:text-6xl lg:text-8xl font-bold leading-[0.9] text-white tracking-tight font-playfair">
+                <h1 className="text-5xl md:text-6xl lg:text-8xl font-bold leading-[0.9] text-white tracking-tight font-josefin">
                   {slides[currentSlide].title.split('\n').map((line, index) => (
                     <span key={index} className="block">
                       {line}
@@ -42,7 +42,7 @@ export default function PageHeroSlider({ slides, ctaText = "İLETİŞİM", ctaLi
                   ))}
                 </h1>
                 
-                <p className="text-lg md:text-xl text-white text-opacity-90 font-normal leading-relaxed max-w-2xl font-playfair">
+                <p className="text-lg md:text-xl text-white text-opacity-90 font-normal leading-relaxed max-w-2xl font-josefin">
                   {slides[currentSlide].subtitle}
                 </p>
               </div>
@@ -50,7 +50,7 @@ export default function PageHeroSlider({ slides, ctaText = "İLETİŞİM", ctaLi
               <div className="flex flex-col sm:flex-row gap-4 pt-6">
                 <Link 
                   href={ctaLink}
-                  className="bg-transparent border border-white text-white px-6 py-3 text-xs font-playfair font-medium uppercase tracking-[0.1em] hover:bg-white hover:text-black transition-all inline-flex items-center justify-center"
+                  className="bg-transparent border border-white text-white px-6 py-3 text-xs font-josefin font-medium uppercase tracking-[0.1em] hover:bg-white hover:text-black transition-all inline-flex items-center justify-center"
                 >
                   {ctaText}
                 </Link>

@@ -19,7 +19,7 @@ export default function Header() {
       <div className="w-full px-[4vw]">
         <div className="flex justify-between items-center" style={{ height: '72px' }}>
           {/* Logo */}
-          <Link href="/" className="font-playfair text-black" style={{ fontSize: '1.25rem', fontWeight: 300, letterSpacing: '-0.02em' }}>
+          <Link href="/" className="font-josefin text-black" style={{ fontSize: '1.25rem', fontWeight: 300, letterSpacing: '-0.02em' }}>
             Esra Çavuşoğlu.
           </Link>
 
@@ -29,7 +29,7 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="font-playfair text-black hover:text-gray-600 transition-colors"
+                className="font-josefin text-black hover:text-gray-600 transition-colors"
                 style={{ fontSize: '0.75rem', fontWeight: 400, letterSpacing: '0.15em', textTransform: 'uppercase' }}
               >
                 {item.label}
@@ -39,7 +39,7 @@ export default function Header() {
             {/* CTA Button */}
             <Link
               href="/iletisim"
-              className="font-playfair text-black hover:text-gray-600 transition-all"
+              className="font-josefin text-black hover:text-gray-600 transition-all"
               style={{ 
                 fontSize: '0.75rem', 
                 fontWeight: 300, 
@@ -98,7 +98,7 @@ export default function Header() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="font-playfair text-black hover:text-gray-600"
+                  className="font-josefin text-black hover:text-gray-600"
                   style={{ fontSize: '0.9rem', fontWeight: 400, letterSpacing: '0.15em', textTransform: 'uppercase' }}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
@@ -107,7 +107,7 @@ export default function Header() {
               ))}
               <Link
                 href="/iletisim"
-                className="font-playfair text-black hover:text-gray-600 inline-block"
+                className="font-josefin text-black hover:text-gray-600 inline-block"
                 style={{ 
                   fontSize: '0.9rem', 
                   fontWeight: 300, 
