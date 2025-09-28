@@ -169,8 +169,8 @@ export default function Home() {
                 </div>
               </Link>
               
-              <Link href="/blog" className="group block bg-white hover:bg-gray-50 transition-all duration-300"
-                    style={{ 
+              <Link href="/ayikkafa" className="group block bg-white hover:bg-gray-50 transition-all duration-300"
+                    style={{
                       border: '1px solid rgba(0,0,0,0.08)',
                       padding: '2.5rem 2rem'
                     }}>
@@ -180,33 +180,33 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
                   </svg>
                 </div>
-                
+
                 {/* Content */}
                 <div className="space-y-3">
-                  <h3 className="font-josefin text-black" 
-                      style={{ 
-                        fontSize: '1.76rem', 
+                  <h3 className="font-josefin text-black"
+                      style={{
+                        fontSize: '1.76rem',
                         fontWeight: 300,
                         lineHeight: 1.2,
                         letterSpacing: '-0.01em'
                       }}>
                     Ayık Kafa Podcast
                   </h3>
-                  <p className="font-josefin text-gray-600" 
-                     style={{ 
-                       fontSize: '1.1rem', 
+                  <p className="font-josefin text-gray-600"
+                     style={{
+                       fontSize: '1.1rem',
                        lineHeight: 1.7,
                        fontWeight: 300
                      }}>
                     Bağımlılık hastalığı, biyohacking ve uzun ömür üzerine haftalık podcast yayınları ve yaşam deneyimi paylaşımları.
                   </p>
                 </div>
-                
+
                 {/* Learn More Link */}
                 <div className="flex items-center mt-6 text-black/60 group-hover:text-black transition-colors">
-                  <span className="font-josefin" 
-                        style={{ 
-                          fontSize: '0.99rem', 
+                  <span className="font-josefin"
+                        style={{
+                          fontSize: '0.99rem',
                           fontWeight: 300,
                           letterSpacing: '0.1em',
                           textTransform: 'uppercase'
