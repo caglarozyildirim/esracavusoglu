@@ -39,7 +39,7 @@ export default function BusinessPageContent() {
                     Bu model daha sonra Türkiye'nin standardı haline geldi.
                   </p>
                   <p className="text-manjit-coral font-crimson leading-relaxed">
-                    <strong className="text-white">Sonuç:</strong> 500'den fazla gencin bağımlılıktan kurtulmasına yardımcı oldum.
+                    <strong className="text-white">Sonuç:</strong> Gençlerin bağımlılıktan kurtulmasına yardımcı oldum.
                   </p>
                 </div>
                 

@@ -13,12 +13,12 @@ export default function HeroSlider() {
       image: "/api/placeholder/800/600"
     },
     {
-      title: "18 Yıllık Ayıklık.\nBilimsel Yaklaşım.\nUmut Dolu Gelecek.",
+      title: "Bilimsel Yaklaşım.\nUmut Dolu Gelecek.\nYenilikçi Tedavi.",
       subtitle: "Bağımlılık tedavisinde yenilikçi yaklaşımlar ve sürdürülebilir iyileşme yolları.",
       image: "/api/placeholder/800/600"
     },
     {
-      title: "500+ Genç.\nYeniden Doğuş.\nTürkiye Modeli.",
+      title: "Yeniden Doğuş.\nTürkiye Modeli.\nKalıcı Çözümler.",
       subtitle: "Yale deneyimi ile Türkiye'ye özel rehabilitasyon modelinin yaratıcısı.",
       image: "/api/placeholder/800/600"
     }

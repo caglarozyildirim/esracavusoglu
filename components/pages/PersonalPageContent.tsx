@@ -8,7 +8,7 @@ export default function PersonalPageContent() {
     },
     {
       title: "Zihinsel Güç.\nFiziksel Sağlık.\nYaşam Dengesi.",
-      subtitle: "18 yıllık ayıklık sürecimde öğrendiğim yaşam prensiplerini ve sağlık stratejilerimi aktarıyorum."
+      subtitle: "Ayıklık sürecimde öğrendiğim yaşam prensiplerini ve sağlık stratejilerimi aktarıyorum."
     },
     {
       title: "İç Huzur.\nAile.\nAmaca Odaklı Yaşam.",

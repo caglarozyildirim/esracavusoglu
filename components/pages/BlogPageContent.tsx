@@ -9,7 +9,7 @@ export default function BlogPageContent() {
     },
     {
       title: "Bilim.\nDeneyim.\nUmut.",
-      subtitle: "18 yıllık ayıklık yolculuğumda öğrendiklerimi ve profesyonel deneyimlerimi paylaşıyorum."
+      subtitle: "Ayıklık yolculuğumda öğrendiklerimi ve profesyonel deneyimlerimi paylaşıyorum."
     }
   ];
 
@@ -36,8 +36,8 @@ export default function BlogPageContent() {
       readTime: '7 dk okuma'
     },
     {
-      title: '500 Gencin Hayatını Değiştirmek',
-      excerpt: 'Bağımlılıktan kurtardığımız 500+ gencin hikayelerinden çıkardığımız dersler ve öğrendiklerimiz.',
+      title: 'Gençlerin Hayatını Değiştirmek',
+      excerpt: 'Bağımlılıktan kurtulan gençlerin hikayelerinden çıkardığımız dersler ve öğrendiklerimiz.',
       date: 'Şubat 28, 2024',
       category: 'Başarı Hikayeleri',
       readTime: '9 dk okuma'

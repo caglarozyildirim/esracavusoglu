@@ -12,12 +12,12 @@ export default function Footer() {
             {/* Brand Column */}
             <div className="lg:col-span-2">
               <Link href="/" className="font-josefin text-white inline-block mb-8"
-                    style={{ fontSize: '1.25rem', fontWeight: 200, letterSpacing: '-0.02em' }}>
+                    style={{ fontSize: '1.71875rem', fontWeight: 200, letterSpacing: '-0.02em' }}>
                 <span style={{ color: '#E63946' }}>Esra Çavuşoğlu.</span>
               </Link>
               
               <p className="font-josefin text-white/80 mb-8 max-w-lg"
-                 style={{ fontSize: '1rem', lineHeight: 1.7, fontWeight: 200 }}>
+                 style={{ fontSize: '1.375rem', lineHeight: 1.7, fontWeight: 200 }}>
                 Psikoloji doktorası, bağımlılık terapisti ve biyohacker olarak 
                 Longevilab'in kurucusu ve Ayık Kafa podcast'inin sunucusuyum.
               </p>
@@ -53,48 +53,57 @@ export default function Footer() {
             {/* Navigation Links */}
             <div>
               <h3 className="font-josefin text-white/60 mb-6"
-                  style={{ fontSize: '0.75rem', letterSpacing: '0.2em', textTransform: 'uppercase' }}>
+                  style={{ fontSize: '1.03125rem', letterSpacing: '0.2em', textTransform: 'uppercase' }}>
                 Sayfalar
               </h3>
               <ul className="space-y-3">
                 <li><Link href="/" className="font-josefin text-white/80 hover:text-white transition-colors" 
-                         style={{ fontSize: '0.875rem', fontWeight: 200 }}>ANA SAYFA</Link></li>
+                         style={{ fontSize: '1.203125rem', fontWeight: 200 }}>ANA SAYFA</Link></li>
                 <li><Link href="/hakkimda" className="font-josefin text-white/80 hover:text-white transition-colors" 
-                         style={{ fontSize: '0.875rem', fontWeight: 200 }}>HAKKIMDA</Link></li>
+                         style={{ fontSize: '1.203125rem', fontWeight: 200 }}>HAKKIMDA</Link></li>
                 <li><Link href="/is-hayati" className="font-josefin text-white/80 hover:text-white transition-colors" 
-                         style={{ fontSize: '0.875rem', fontWeight: 200 }}>İŞ HAYATI</Link></li>
+                         style={{ fontSize: '1.203125rem', fontWeight: 200 }}>İŞ HAYATI</Link></li>
                 <li><Link href="/kisisel" className="font-josefin text-white/80 hover:text-white transition-colors" 
-                         style={{ fontSize: '0.875rem', fontWeight: 200 }}>KİŞİSEL</Link></li>
-                <li><Link href="/blog" className="font-josefin text-white/80 hover:text-white transition-colors" 
-                         style={{ fontSize: '0.875rem', fontWeight: 200 }}>BLOG</Link></li>
+                         style={{ fontSize: '1.203125rem', fontWeight: 200 }}>KİŞİSEL</Link></li>
+                <li><Link href="/ayikkafa" className="font-josefin text-white/80 hover:text-white transition-colors"
+                         style={{ fontSize: '1.203125rem', fontWeight: 200 }}>AYIK KAFA</Link></li>
               </ul>
             </div>
             
             {/* Contact Info */}
-            <div>
+            <div className="flex flex-col" style={{ minHeight: '280px' }}>
               <h3 className="font-josefin text-white/60 mb-6"
-                  style={{ fontSize: '0.75rem', letterSpacing: '0.2em', textTransform: 'uppercase' }}>
+                  style={{ fontSize: '1.03125rem', letterSpacing: '0.2em', textTransform: 'uppercase' }}>
                 İletişim
               </h3>
-              <ul className="space-y-3">
+              <ul className="flex-1 space-y-3">
                 <li>
                   <a href="mailto:hello@esracavusoglu.com" className="font-josefin text-white/80 hover:text-white transition-colors"
-                     style={{ fontSize: '0.875rem', fontWeight: 200 }}>
+                     style={{ fontSize: '1.203125rem', fontWeight: 200 }}>
                     hello@esracavusoglu.com
                   </a>
                 </li>
                 <li>
-                  <Link href="/iletisim" className="font-josefin text-white/80 hover:text-white transition-colors"
-                        style={{ fontSize: '0.875rem', fontWeight: 200 }}>
-                    İletişim Formu
-                  </Link>
-                </li>
-                <li>
-                  <span className="font-josefin text-white/80" style={{ fontSize: '0.875rem', fontWeight: 200 }}>
+                  <span className="font-josefin text-white/80" style={{ fontSize: '1.203125rem', fontWeight: 200 }}>
                     İstanbul, Türkiye
                   </span>
                 </li>
               </ul>
+              {/* Learn More Link aligned at bottom */}
+              <Link href="/iletisim" className="group flex items-center mt-auto pt-8 text-white/60 hover:text-white transition-colors">
+                <span className="font-josefin"
+                      style={{
+                        fontSize: '0.99rem',
+                        fontWeight: 300,
+                        letterSpacing: '0.1em',
+                        textTransform: 'uppercase'
+                      }}>
+                  DAHA FAZLA
+                </span>
+                <svg className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
             </div>
             
           </div>
@@ -102,16 +111,16 @@ export default function Footer() {
           {/* Bottom Bar */}
           <div className="mt-12 pt-8" style={{ borderTop: '1px solid rgba(255,255,255,0.1)' }}>
             <div className="flex flex-col md:flex-row justify-between items-center">
-              <p className="font-josefin text-white/60" style={{ fontSize: '0.75rem', fontWeight: 200 }}>
+              <p className="font-josefin text-white/60" style={{ fontSize: '1.03125rem', fontWeight: 200 }}>
                 © {new Date().getFullYear()} Esra Çavuşoğlu. Tüm hakları saklıdır.
               </p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <Link href="/privacy" className="font-josefin text-white/60 hover:text-white transition-colors"
-                      style={{ fontSize: '0.75rem', fontWeight: 200 }}>
+                      style={{ fontSize: '1.03125rem', fontWeight: 200 }}>
                   Gizlilik Politikası
                 </Link>
                 <Link href="/terms" className="font-josefin text-white/60 hover:text-white transition-colors"
-                      style={{ fontSize: '0.75rem', fontWeight: 200 }}>
+                      style={{ fontSize: '1.03125rem', fontWeight: 200 }}>
                   Kullanım Koşulları
                 </Link>
               </div>

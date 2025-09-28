@@ -11,7 +11,7 @@ export default function Header() {
     { href: '/hakkimda', label: 'HAKKIMDA' },
     { href: '/is-hayati', label: 'İŞ HAYATI' },
     { href: '/kisisel', label: 'KİŞİSEL' },
-    { href: '/blog', label: 'BLOG' },
+    { href: '/ayikkafa', label: 'AYIK KAFA' },
   ];
 
   return (
@@ -19,7 +19,7 @@ export default function Header() {
       <div className="w-full px-[4vw]">
         <div className="flex justify-between items-center" style={{ height: '72px' }}>
           {/* Logo */}
-          <Link href="/" className="font-josefin text-black" style={{ fontSize: '1.25rem', fontWeight: 300, letterSpacing: '-0.02em' }}>
+          <Link href="/" className="font-josefin text-black" style={{ fontSize: '1.375rem', fontWeight: 300, letterSpacing: '-0.02em' }}>
             Esra Çavuşoğlu.
           </Link>
 
@@ -30,7 +30,7 @@ export default function Header() {
                 key={item.href}
                 href={item.href}
                 className="font-josefin text-black hover:text-gray-600 transition-colors"
-                style={{ fontSize: '0.75rem', fontWeight: 400, letterSpacing: '0.15em', textTransform: 'uppercase' }}
+                style={{ fontSize: '0.825rem', fontWeight: 400, letterSpacing: '0.15em', textTransform: 'uppercase' }}
               >
                 {item.label}
               </Link>
@@ -41,7 +41,7 @@ export default function Header() {
               href="/iletisim"
               className="font-josefin text-black hover:text-gray-600 transition-all"
               style={{ 
-                fontSize: '0.75rem', 
+                fontSize: '0.825rem', 
                 fontWeight: 300, 
                 letterSpacing: '0.2em', 
                 textTransform: 'uppercase',
@@ -99,7 +99,7 @@ export default function Header() {
                   key={item.href}
                   href={item.href}
                   className="font-josefin text-black hover:text-gray-600"
-                  style={{ fontSize: '0.9rem', fontWeight: 400, letterSpacing: '0.15em', textTransform: 'uppercase' }}
+                  style={{ fontSize: '0.99rem', fontWeight: 400, letterSpacing: '0.15em', textTransform: 'uppercase' }}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.label}
@@ -109,7 +109,7 @@ export default function Header() {
                 href="/iletisim"
                 className="font-josefin text-black hover:text-gray-600 inline-block"
                 style={{ 
-                  fontSize: '0.9rem', 
+                  fontSize: '0.99rem', 
                   fontWeight: 300, 
                   letterSpacing: '0.15em', 
                   textTransform: 'uppercase',

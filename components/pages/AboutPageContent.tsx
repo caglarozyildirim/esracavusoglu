@@ -7,12 +7,12 @@ export default function AboutPageContent() {
       subtitle: "Dr. Esra Çavuşoğlu hakkında – Psikoloji doktoru, New York eyalet sertifikalı bağımlılık terapisti ve klinik psikolog."
     },
     {
-      title: "18 Yıllık Ayıklık.\nBilimsel Yaklaşım.\nUmut Dolu Gelecek.",
-      subtitle: "21 yaşında madde bağımlısı, 28 yaşında bu savaşı kazandım. 18 yıldır ayık yaşamın güzelliklerini yaşıyorum."
+      title: "Ayıklık Yolculuğu.\nBilimsel Yaklaşım.\nUmut Dolu Gelecek.",
+      subtitle: "21 yaşında madde bağımlısı, 28 yaşında bu savaşı kazandım. Ayık yaşamın güzelliklerini yaşıyorum."
     },
     {
-      title: "Yale Deneyimi.\nTürkiye Modeli.\n500+ Genç.",
-      subtitle: "Yale Tıp Fakültesi deneyimi ile Türkiye Rehabilitasyon Modeli'ni tasarladım ve 500+ gencin hayatını değiştirdim."
+      title: "Yale Deneyimi.\nTürkiye Modeli.\nHayat Değiştiren Çalışma.",
+      subtitle: "Yale Tıp Fakültesi deneyimi ile Türkiye Rehabilitasyon Modeli'ni tasarladım ve gençlerin hayatını değiştirdim."
     }
   ];
 
@@ -59,7 +59,7 @@ export default function AboutPageContent() {
               <div className="text-center p-6 bg-taupe-dark bg-opacity-50 rounded-lg">
                 <h3 className="text-xl font-crimson font-normal mb-4 text-white">Hizmet</h3>
                 <p className="text-manjit-coral font-crimson leading-relaxed">
-                  500'den fazla gencin hayatını yeniden inşa etmesine yardımcı oldum.
+                  Gençlerin hayatını yeniden inşa etmesine yardımcı oluyorum.
                 </p>
               </div>
             </div>

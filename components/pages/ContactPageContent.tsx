@@ -104,7 +104,7 @@ export default function ContactPageContent() {
             <div className="text-center">
               <h2 className="text-2xl font-crimson font-normal mb-6 text-white">İşbirliği Yapalım</h2>
               <p className="text-manjit-coral font-crimson mb-8 max-w-2xl mx-auto">
-                18 yıllık ayıklık deneyimim, Yale eğitimim ve 500+ genci iyileştirme başarım ile 
+                Ayıklık deneyimim, Yale eğitimim ve gençleri iyileştirme başarım ile
                 projelerinizde değer yaratmaya hazırım.
               </p>
               

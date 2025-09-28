@@ -24,7 +24,7 @@ export default function ServicesSection() {
     },
     {
       title: 'Ayık Kafa Podcast',
-      description: 'Bağımlılık hastalığı, biyohacking ve uzun ömür üzerine haftalık podcast yayınları. 18 yıllık ayık yaşam deneyimi.',
+      description: 'Bağımlılık hastalığı, biyohacking ve uzun ömür üzerine haftalık podcast yayınları ve yaşam deneyimi paylaşımları.',
       href: '/blog',
       icon: (
         <svg className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="1" viewBox="0 0 24 24">
@@ -50,46 +50,47 @@ export default function ServicesSection() {
         <div className="max-w-[1400px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[11px]">
             {services.map((service, index) => (
-              <Link 
+              <Link
                 key={index}
                 href={service.href}
-                className="group block bg-white hover:bg-gray-50 transition-all duration-300"
-                style={{ 
+                className="group flex flex-col bg-white hover:bg-gray-50 transition-all duration-300"
+                style={{
                   border: '1px solid rgba(0,0,0,0.08)',
-                  padding: '2.5rem 2rem'
+                  padding: '2.5rem 2rem',
+                  minHeight: '420px'
                 }}
               >
                 {/* Icon */}
                 <div className="mb-6 text-black/60 group-hover:text-black transition-colors">
                   {service.icon}
                 </div>
-                
+
                 {/* Content */}
-                <div className="space-y-3">
-                  <h3 className="font-josefin text-black" 
-                      style={{ 
-                        fontSize: '1.6rem', 
+                <div className="flex-1 space-y-3">
+                  <h3 className="font-josefin text-black"
+                      style={{
+                        fontSize: '1.76rem',
                         fontWeight: 300,
                         lineHeight: 1.2,
                         letterSpacing: '-0.01em'
                       }}>
                     {service.title}
                   </h3>
-                  <p className="font-josefin text-gray-600" 
-                     style={{ 
-                       fontSize: '1rem', 
+                  <p className="font-josefin text-gray-600"
+                     style={{
+                       fontSize: '1.1rem',
                        lineHeight: 1.7,
                        fontWeight: 300
                      }}>
                     {service.description}
                   </p>
                 </div>
-                
+
                 {/* Learn More Link */}
-                <div className="flex items-center mt-6 text-black/60 group-hover:text-black transition-colors">
-                  <span className="font-josefin" 
-                        style={{ 
-                          fontSize: '0.9rem', 
+                <div className="flex items-center mt-auto pt-6 text-black/60 group-hover:text-black transition-colors">
+                  <span className="font-josefin"
+                        style={{
+                          fontSize: '0.99rem',
                           fontWeight: 300,
                           letterSpacing: '0.1em',
                           textTransform: 'uppercase'

@@ -11,7 +11,7 @@ export default function HeroSection() {
             {/* Main Heading */}
             <h1 className="font-josefin text-white" 
                 style={{ 
-                  fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', 
+                  fontSize: 'clamp(2.75rem, 5.5vw, 4.95rem)', 
                   fontWeight: 200,
                   lineHeight: 1.1,
                   letterSpacing: '-0.02em'
@@ -27,7 +27,7 @@ export default function HeroSection() {
             <div className="max-w-4xl">
               <p className="font-josefin text-white/80 sqsrte-large" 
                  style={{ 
-                   fontSize: '1.25rem', 
+                   fontSize: '1.375rem', 
                    lineHeight: 1.7,
                    fontWeight: 200
                  }}>
@@ -36,12 +36,11 @@ export default function HeroSection() {
               </p>
               <p className="font-josefin text-white/80 sqsrte-large mt-6" 
                  style={{ 
-                   fontSize: '1.25rem', 
+                   fontSize: '1.375rem', 
                    lineHeight: 1.7,
                    fontWeight: 200
                  }}>
-                18+ yıllık ayıklık deneyimim ve 500'den fazla gencin hayatına dokunmuş bir profesyonel olarak, 
-                Türkiye'ye özgü rehabilitasyon modeli geliştirerek, dayanıklılık, yaratıcılık ve bilimsel yaklaşımla 
+                Türkiye'ye özgü rehabilitasyon modeli geliştirerek, dayanıklılık, yaratıcılık ve bilimsel yaklaşımla
                 bağımlılıkla mücadelede yeni yollar açıyorum.
               </p>
             </div>
@@ -52,7 +51,7 @@ export default function HeroSection() {
                 href="/iletisim"
                 className="inline-block font-josefin text-white hover:text-white/70 transition-all"
                 style={{ 
-                  fontSize: '0.75rem', 
+                  fontSize: '0.825rem', 
                   fontWeight: 300, 
                   letterSpacing: '0.2em', 
                   textTransform: 'uppercase',
