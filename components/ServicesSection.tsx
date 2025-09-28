@@ -25,7 +25,7 @@ export default function ServicesSection() {
     {
       title: 'Ayık Kafa Podcast',
       description: 'Bağımlılık hastalığı, biyohacking ve uzun ömür üzerine haftalık podcast yayınları ve yaşam deneyimi paylaşımları.',
-      href: '/blog',
+      href: '/ayikkafa',
       icon: (
         <svg className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="1" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
@@ -33,12 +33,12 @@ export default function ServicesSection() {
       )
     },
     {
-      title: 'Eğitim & Danışmanlık',
-      description: 'ÇABAÇAD kurucusu olarak bağımlılıkla mücadele eğitimleri. Yale Tıp Fakültesi\'nde uluslararası danışmanlık.',
+      title: 'İletişim',
+      description: 'Birlikte çalışmayı keşfedelim. Projeleriniz, iş birlikleriniz ve danışmanlık talepleriniz için iletişime geçin.',
       href: '/iletisim',
       icon: (
         <svg className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="1" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       )
     }
@@ -53,11 +53,11 @@ export default function ServicesSection() {
               <Link
                 key={index}
                 href={service.href}
-                className="group flex flex-col bg-white hover:bg-gray-50 transition-all duration-300"
+                className="group flex flex-col bg-white hover:bg-gray-50 transition-all duration-300 relative"
                 style={{
                   border: '1px solid rgba(0,0,0,0.08)',
                   padding: '2.5rem 2rem',
-                  minHeight: '420px'
+                  height: '400px'
                 }}
               >
                 {/* Icon */}
@@ -65,29 +65,29 @@ export default function ServicesSection() {
                   {service.icon}
                 </div>
 
-                {/* Content */}
-                <div className="flex-1 space-y-3">
-                  <h3 className="font-josefin text-black"
-                      style={{
-                        fontSize: '1.76rem',
-                        fontWeight: 300,
-                        lineHeight: 1.2,
-                        letterSpacing: '-0.01em'
-                      }}>
-                    {service.title}
-                  </h3>
-                  <p className="font-josefin text-gray-600"
-                     style={{
-                       fontSize: '1.1rem',
-                       lineHeight: 1.7,
-                       fontWeight: 300
-                     }}>
-                    {service.description}
-                  </p>
-                </div>
+                {/* Title */}
+                <h3 className="font-josefin text-black mb-3"
+                    style={{
+                      fontSize: '1.76rem',
+                      fontWeight: 300,
+                      lineHeight: 1.2,
+                      letterSpacing: '-0.01em'
+                    }}>
+                  {service.title}
+                </h3>
 
-                {/* Learn More Link */}
-                <div className="flex items-center mt-auto pt-6 text-black/60 group-hover:text-black transition-colors">
+                {/* Description with fixed height */}
+                <p className="font-josefin text-gray-600 flex-1"
+                   style={{
+                     fontSize: '1.1rem',
+                     lineHeight: 1.7,
+                     fontWeight: 300
+                   }}>
+                  {service.description}
+                </p>
+
+                {/* Learn More Link - positioned at bottom */}
+                <div className="flex items-center text-black/60 group-hover:text-black transition-colors mt-auto">
                   <span className="font-josefin"
                         style={{
                           fontSize: '0.99rem',

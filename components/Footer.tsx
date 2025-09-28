@@ -71,12 +71,12 @@ export default function Footer() {
             </div>
             
             {/* Contact Info */}
-            <div className="flex flex-col" style={{ minHeight: '280px' }}>
+            <div>
               <h3 className="font-josefin text-white/60 mb-6"
                   style={{ fontSize: '1.03125rem', letterSpacing: '0.2em', textTransform: 'uppercase' }}>
                 İletişim
               </h3>
-              <ul className="flex-1 space-y-3">
+              <ul className="space-y-3">
                 <li>
                   <a href="mailto:hello@esracavusoglu.com" className="font-josefin text-white/80 hover:text-white transition-colors"
                      style={{ fontSize: '1.203125rem', fontWeight: 200 }}>
@@ -88,22 +88,13 @@ export default function Footer() {
                     İstanbul, Türkiye
                   </span>
                 </li>
+                <li>
+                  <Link href="/iletisim" className="font-josefin text-white/80 hover:text-white transition-colors"
+                        style={{ fontSize: '1.203125rem', fontWeight: 200 }}>
+                    İletişim Formu
+                  </Link>
+                </li>
               </ul>
-              {/* Learn More Link aligned at bottom */}
-              <Link href="/iletisim" className="group flex items-center mt-auto pt-8 text-white/60 hover:text-white transition-colors">
-                <span className="font-josefin"
-                      style={{
-                        fontSize: '0.99rem',
-                        fontWeight: 300,
-                        letterSpacing: '0.1em',
-                        textTransform: 'uppercase'
-                      }}>
-                  DAHA FAZLA
-                </span>
-                <svg className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
             </div>
             
           </div>
