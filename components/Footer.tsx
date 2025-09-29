@@ -18,8 +18,7 @@ export default function Footer() {
               
               <p className="font-josefin text-white/80 mb-8 max-w-lg"
                  style={{ fontSize: '1.375rem', lineHeight: 1.7, fontWeight: 200 }}>
-                Psikoloji doktorası, bağımlılık terapisti ve biyohacker olarak 
-                Longevilab'in kurucusu ve Ayık Kafa podcast'inin sunucusuyum.
+                Klinik psikolog, girişimci, uluslararası konuşmacı ve Türkiye'nin ilk biohacker'ı.
               </p>
               
               
