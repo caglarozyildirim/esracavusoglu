@@ -11,7 +11,7 @@ export default function Header() {
     { href: '/hakkimda', label: 'HAKKIMDA' },
     { href: '/is-hayati', label: 'İŞ HAYATI' },
     { href: '/kisisel', label: 'KİŞİSEL' },
-    { href: '/ayikkafa', label: 'AYIK KAFA' },
+    { href: 'https://www.longevilab.com/k/izle', label: 'AYIK KAFA', isExternal: true },
   ];
 
   return (
@@ -25,16 +25,29 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center" style={{ gap: '2.5rem' }}>
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="font-josefin text-black hover:text-gray-600 transition-colors"
-                style={{ fontSize: '0.825rem', fontWeight: 400, letterSpacing: '0.15em', textTransform: 'uppercase' }}
-              >
-                {item.label}
-              </Link>
-            ))}
+            {navItems.map((item) =>
+              item.isExternal ? (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-josefin text-black hover:text-gray-600 transition-colors"
+                  style={{ fontSize: '0.825rem', fontWeight: 400, letterSpacing: '0.15em', textTransform: 'uppercase' }}
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="font-josefin text-black hover:text-gray-600 transition-colors"
+                  style={{ fontSize: '0.825rem', fontWeight: 400, letterSpacing: '0.15em', textTransform: 'uppercase' }}
+                >
+                  {item.label}
+                </Link>
+              )
+            )}
             
             {/* CTA Button */}
             <Link
@@ -94,17 +107,31 @@ export default function Header() {
         {isMobileMenuOpen && (
           <div className="md:hidden py-4">
             <div className="flex flex-col space-y-4">
-              {navItems.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="font-josefin text-black hover:text-gray-600"
-                  style={{ fontSize: '0.99rem', fontWeight: 400, letterSpacing: '0.15em', textTransform: 'uppercase' }}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              ))}
+              {navItems.map((item) =>
+                item.isExternal ? (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-josefin text-black hover:text-gray-600"
+                    style={{ fontSize: '0.99rem', fontWeight: 400, letterSpacing: '0.15em', textTransform: 'uppercase' }}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                ) : (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className="font-josefin text-black hover:text-gray-600"
+                    style={{ fontSize: '0.99rem', fontWeight: 400, letterSpacing: '0.15em', textTransform: 'uppercase' }}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                )
+              )}
               <Link
                 href="/iletisim"
                 className="font-josefin text-black hover:text-gray-600 inline-block"

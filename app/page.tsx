@@ -174,12 +174,15 @@ export default function Home() {
                 </div>
               </Link>
               
-              <Link href="/ayikkafa" className="group flex flex-col justify-between bg-white hover:bg-gray-50 transition-all duration-300"
-                    style={{
-                      border: '1px solid rgba(0,0,0,0.08)',
-                      padding: '2.5rem 2rem',
-                      minHeight: '420px'
-                    }}>
+              <a href="https://www.longevilab.com/k/izle"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="group flex flex-col justify-between bg-white hover:bg-gray-50 transition-all duration-300"
+                 style={{
+                   border: '1px solid rgba(0,0,0,0.08)',
+                   padding: '2.5rem 2rem',
+                   minHeight: '420px'
+                 }}>
                 <div>
                   {/* Icon */}
                   <div className="mb-6 text-black/60 group-hover:text-black transition-colors">
@@ -225,8 +228,8 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
                   </svg>
                 </div>
-              </Link>
-              
+              </a>
+
               <Link href="/iletisim" className="group flex flex-col justify-between bg-white hover:bg-gray-50 transition-all duration-300"
                     style={{
                       border: '1px solid rgba(0,0,0,0.08)',
