@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e63113c-a3c5-4d33-b0a5-e9fd012e674b" name="Changes" comment="görsel düzenleme öncesi commit">
-      <change beforePath="$PROJECT_DIR$/.next/app-build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/app-build-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/1.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/1.pack.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.gz.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.gz.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/1.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/1.pack.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/2.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/2.pack.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.gz.old" beforeDir="false" afterPath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.gz.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/prerender-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/prerender-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app-paths-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/app-paths-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/_not-found/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/_not-found/page_client-reference-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/hakkimda/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/hakkimda/page_client-reference-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/is-hayati/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/app/is-hayati/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/is-hayati/page_client-reference-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/app/is-hayati/page_client-reference-manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/kisisel/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/kisisel/page_client-reference-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/page_client-reference-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/app/page_client-reference-manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/vendor-chunks/next.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/vendor-chunks/next.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/webpack-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/webpack-runtime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/webpack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/.next/trace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/types/app/hakkimda/page.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/types/app/kisisel/page.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/hakkimda/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/hakkimda/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/is-hayati/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/is-hayati/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/kisisel/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/kisisel/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ServicesSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ServicesSection.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="9e63113c-a3c5-4d33-b0a5-e9fd012e674b" name="Changes" comment="final v2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +86,7 @@
       <workItem from="1757579574663" duration="11157000" />
       <workItem from="1757660436883" duration="25345000" />
       <workItem from="1758612287432" duration="3613000" />
-      <workItem from="1759062475971" duration="13050000" />
+      <workItem from="1759062475971" duration="24278000" />
     </task>
     <task id="LOCAL-00001" summary="logolar tasarlandı.">
       <option name="closed" value="true" />
@@ -146,7 +112,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759072037492</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="final">
+      <option name="closed" value="true" />
+      <created>1759077077965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759077077965</updated>
+    </task>
+    <task id="LOCAL-00005" summary="final v2">
+      <option name="closed" value="true" />
+      <created>1759078389323</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759078389323</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +138,8 @@
     <MESSAGE value="logolar tasarlandı." />
     <MESSAGE value="tamamlandı" />
     <MESSAGE value="görsel düzenleme öncesi commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="görsel düzenleme öncesi commit" />
+    <MESSAGE value="final" />
+    <MESSAGE value="final v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="final v2" />
   </component>
 </project>
