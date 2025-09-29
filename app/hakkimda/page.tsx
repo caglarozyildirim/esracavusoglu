@@ -145,36 +145,53 @@ export default function HakkimdaPage() {
       {/* Professional Journey */}
       <section className="bg-white" style={{ padding: '5vmax 0' }}>
         <div className="w-full px-[4vw]">
-          <div className="max-w-[900px] mx-auto">
-            <h2 className="font-josefin text-black mb-12"
-                style={{ fontSize: 'clamp(2.2rem, 4.4vw, 3.3rem)', fontWeight: 200, letterSpacing: '-0.02em' }}>
-              Profesyonel Yolculuğum
-            </h2>
+          <div className="max-w-[1400px] mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              {/* Text Column */}
+              <div>
+                <h2 className="font-josefin text-black mb-12"
+                    style={{ fontSize: 'clamp(2.2rem, 4.4vw, 3.3rem)', fontWeight: 200, letterSpacing: '-0.02em' }}>
+                  Profesyonel Yolculuğum
+                </h2>
 
-            <div className="space-y-6">
-              <p className="font-josefin text-gray-600"
-                 style={{ fontSize: '1.2375rem', lineHeight: 1.8, fontWeight: 200 }}>
-                Ben Dr. Esra Çavuşoğlu, PhD. İflah olmaz bir girişimciyim; aynı zamanda bağımlılık tedavisi alanında uzman
-                bir klinik psikolog, uluslararası konuşmacı ve Türkiye'nin ilk biohacker'ıyım. Avrupa'nın önde gelen
-                biohacker'larından biri olarak kabul ediliyorum ve klinik psikoloji, fonksiyonel tıp, nörobilim ve
-                biohacking'i yenilikçi bir yaklaşımla bir araya getiriyorum. Bu bütüncül bakış açım sayesinde hem
-                bağımlılıklarla mücadeleye hem de sağlıklı ve uzun bir yaşamın nasıl mümkün olabileceğine dair farklı
-                bir vizyon sunuyorum.
-              </p>
+                <div className="space-y-6">
+                  <p className="font-josefin text-gray-600"
+                     style={{ fontSize: '1.2375rem', lineHeight: 1.8, fontWeight: 200 }}>
+                    Ben Dr. Esra Çavuşoğlu, PhD. İflah olmaz bir girişimciyim; aynı zamanda bağımlılık tedavisi alanında uzman
+                    bir klinik psikolog, uluslararası konuşmacı ve Türkiye'nin ilk biohacker'ıyım. Avrupa'nın önde gelen
+                    biohacker'larından biri olarak kabul ediliyorum ve klinik psikoloji, fonksiyonel tıp, nörobilim ve
+                    biohacking'i yenilikçi bir yaklaşımla bir araya getiriyorum. Bu bütüncül bakış açım sayesinde hem
+                    bağımlılıklarla mücadeleye hem de sağlıklı ve uzun bir yaşamın nasıl mümkün olabileceğine dair farklı
+                    bir vizyon sunuyorum.
+                  </p>
 
-              <p className="font-josefin text-gray-600"
-                 style={{ fontSize: '1.2375rem', lineHeight: 1.8, fontWeight: 200 }}>
-                Girişimci yönüm, yalnızca sağlık alanında değil, farklı sektörlerde de kendini gösterdi. Türkiye'nin ilk
-                konsept restoranı Lounge'ı ve dünyanın ilk elektro kas stimülasyonu (EMS) grup fitness konsepti olan
-                Shock Therapy'yi hayata geçirdim. Akademik alandaki yolculuğum ise Yale Üniversitesi'ndeki görevlerim ve
-                Birleşmiş Milletler'deki konuşmalarımla uluslararası platformlara taşındı.
-              </p>
+                  <p className="font-josefin text-gray-600"
+                     style={{ fontSize: '1.2375rem', lineHeight: 1.8, fontWeight: 200 }}>
+                    Girişimci yönüm, yalnızca sağlık alanında değil, farklı sektörlerde de kendini gösterdi. Türkiye'nin ilk
+                    konsept restoranı Lounge'ı ve dünyanın ilk elektro kas stimülasyonu (EMS) grup fitness konsepti olan
+                    Shock Therapy'yi hayata geçirdim. Akademik alandaki yolculuğum ise Yale Üniversitesi'ndeki görevlerim ve
+                    Birleşmiş Milletler'deki konuşmalarımla uluslararası platformlara taşındı.
+                  </p>
 
-              <p className="font-josefin text-gray-600"
-                 style={{ fontSize: '1.2375rem', lineHeight: 1.8, fontWeight: 200 }}>
-                Türkiye'de bir ilk olan bağımlılık tedavisi modelini tasarladım, bu alandaki derneği kurdum ve
-                "Ayık Kafa" YouTube kanalım aracılığıyla koruyucu sağlık bilincini daha geniş kitlelerle paylaşıyorum.
-              </p>
+                  <p className="font-josefin text-gray-600"
+                     style={{ fontSize: '1.2375rem', lineHeight: 1.8, fontWeight: 200 }}>
+                    Türkiye'de bir ilk olan bağımlılık tedavisi modelini tasarladım, bu alandaki derneği kurdum ve
+                    "Ayık Kafa" YouTube kanalım aracılığıyla koruyucu sağlık bilincini daha geniş kitlelerle paylaşıyorum.
+                  </p>
+                </div>
+              </div>
+
+              {/* Image Column */}
+              <div className="relative w-full">
+                <div className="aspect-[4/5] relative">
+                  <Image
+                    src="/images/_ELD3728ddd.jpg"
+                    alt="Dr. Esra Çavuşoğlu"
+                    fill
+                    className="object-cover rounded-lg"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
