@@ -215,25 +215,25 @@ export default function KisiselPage() {
                     style={{ fontSize: 'clamp(2.2rem, 4.4vw, 3.3rem)', fontWeight: 200, letterSpacing: '-0.02em' }}>
                   Birlikte Çalışalım
                 </h2>
-                <p className="font-josefin text-gray-600 mb-8"
-                   style={{ fontSize: '1.25rem', lineHeight: 1.8, fontWeight: 200 }}>
-                  Amacı olan bir şey inşa ediyorsanız, sağlıklı yaşam yolculuğunda ilerliyorsanız 
+                <p className="font-josefin text-black mb-8"
+                   style={{ fontSize: '1.5625rem', lineHeight: 1.8, fontWeight: 200 }}>
+                  Amacı olan bir şey inşa ediyorsanız, sağlıklı yaşam yolculuğunda ilerliyorsanız
                   ya da iş birliği fırsatlarını keşfetmek istiyorsanız sizinle tanışmayı çok isterim.
                 </p>
-                <p className="font-josefin text-gray-600 mb-8"
-                   style={{ fontSize: '1.2375rem', lineHeight: 1.8, fontWeight: 200 }}>
-                  Bağımlılık, sağlıklı yaşam, longevity ve biohacking alanlarında; bireylerle, 
+                <p className="font-josefin text-black mb-8"
+                   style={{ fontSize: '1.547rem', lineHeight: 1.8, fontWeight: 200 }}>
+                  Bağımlılık, sağlıklı yaşam, longevity ve biohacking alanlarında; bireylerle,
                   şirketlerle, sağlık merkezleriyle ve markalarla çalışıyorum.
                 </p>
-                <p className="font-josefin text-gray-600 mb-12"
-                   style={{ fontSize: '1.2375rem', lineHeight: 1.8, fontWeight: 200 }}>
-                  Burada gördükleriniz size ilham verdiyse, konuşmaya başlayalım. Bilgim, deneyimim 
-                  ve vizyonumla katkı sunabileceğim ya da sadece hikayelerimi paylaşarak faydalı 
+                <p className="font-josefin text-black mb-12"
+                   style={{ fontSize: '1.547rem', lineHeight: 1.8, fontWeight: 200 }}>
+                  Burada gördükleriniz size ilham verdiyse, konuşmaya başlayalım. Bilgim, deneyimim
+                  ve vizyonumla katkı sunabileceğim ya da sadece hikayelerimi paylaşarak faydalı
                   olabileceğim her fırsata açığım.
                 </p>
                 <p className="font-josefin text-black mb-12"
-                   style={{ fontSize: '1.375rem', lineHeight: 1.8, fontWeight: 300 }}>
-                  Konuşmacı olarak etkinliklerinizde, danışmanlık projelerinde ya da ortak 
+                   style={{ fontSize: '1.719rem', lineHeight: 1.8, fontWeight: 300 }}>
+                  Konuşmacı olarak etkinliklerinizde, danışmanlık projelerinde ya da ortak
                   iş birliklerinde buluşalım.
                 </p>
                 <Link href="/iletisim" 
