@@ -406,6 +406,34 @@ export default function HakkimdaPage() {
         </div>
       </section>
 
+      {/* CTA Section */}
+      <section className="bg-black" style={{ padding: '4vmax 0' }}>
+        <div className="w-full px-[4vw]">
+          <div className="max-w-[1400px] mx-auto text-center">
+            <h2 className="font-josefin text-white mb-6"
+                style={{ fontSize: 'clamp(2.2rem, 4.4vw, 3.3rem)', fontWeight: 200, letterSpacing: '-0.02em' }}>
+              Gelin Konuşalım
+            </h2>
+            <p className="font-josefin text-white/80 mb-8 max-w-[700px] mx-auto"
+               style={{ fontSize: '1.25rem', lineHeight: 1.7, fontWeight: 200 }}>
+              Projeleriniz, iş birlikleriniz ve danışmanlık talepleriniz için benimle iletişime geçin.
+            </p>
+            <Link href="/iletisim"
+                  className="inline-block font-josefin text-white hover:opacity-90 transition-opacity"
+                  style={{
+                    fontSize: '0.95rem',
+                    fontWeight: 400,
+                    letterSpacing: '0.2em',
+                    textTransform: 'uppercase',
+                    backgroundColor: '#E63946',
+                    padding: '16px 40px',
+                    borderRadius: '4px'
+                  }}>
+              İLETİŞİME GEÇ
+            </Link>
+          </div>
+        </div>
+      </section>
 
       <Footer />
     </>
