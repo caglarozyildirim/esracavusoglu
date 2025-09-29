@@ -107,14 +107,22 @@ export default function Footer() {
               <p className="font-josefin text-white/60" style={{ fontSize: '1.03125rem', fontWeight: 200 }}>
                 © {new Date().getFullYear()} Esra Çavuşoğlu. Tüm hakları saklıdır.
               </p>
-              <div className="flex space-x-6 mt-4 md:mt-0">
-                <Link href="/privacy" className="font-josefin text-white/60 hover:text-white transition-colors"
+              <div className="flex flex-wrap gap-4 mt-4 md:mt-0">
+                <Link href="/gizlilik-politikasi" className="font-josefin text-white/60 hover:text-white transition-colors"
                       style={{ fontSize: '1.03125rem', fontWeight: 200 }}>
-                  Gizlilik Politikası
+                  Kişisel Veri Politikası
                 </Link>
-                <Link href="/terms" className="font-josefin text-white/60 hover:text-white transition-colors"
+                <Link href="/cerez-politikasi" className="font-josefin text-white/60 hover:text-white transition-colors"
                       style={{ fontSize: '1.03125rem', fontWeight: 200 }}>
-                  Kullanım Koşulları
+                  Çerez Politikası
+                </Link>
+                <Link href="/aydinlatma-metni" className="font-josefin text-white/60 hover:text-white transition-colors"
+                      style={{ fontSize: '1.03125rem', fontWeight: 200 }}>
+                  Aydınlatma Metni
+                </Link>
+                <Link href="/acik-riza-onay-formu" className="font-josefin text-white/60 hover:text-white transition-colors"
+                      style={{ fontSize: '1.03125rem', fontWeight: 200 }}>
+                  Açık Rıza Onay Formu
                 </Link>
               </div>
             </div>
