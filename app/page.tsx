@@ -27,12 +27,21 @@ export default function Home() {
                 <span style={{ color: '#E63946' }}>Dr. Esra Çavuşoğlu, PhD</span>
               </h1>
               
-              <p className="font-josefin text-gray-600 mb-8"
+              <p className="font-josefin text-gray-600 mb-6"
                  style={{ fontSize: '1.65rem', lineHeight: 1.5, fontWeight: 300 }}>
                 Sağlık Savunucusu | Girişimci | Danışman | Biohacker
               </p>
-              
-              
+
+              <p className="font-josefin text-gray-600 mb-8"
+                 style={{ fontSize: '1.375rem', lineHeight: 1.7, fontWeight: 300 }}>
+                Ben Dr. Esra Çavuşoğlu — klinik psikolog, girişimci, uluslararası konuşmacı ve Türkiye'nin ilk biohacker'ıyım.
+                <br /><br />
+                30 yıla yakın iş deneyimim ve liderlik ile yaşam tarzımı dönüştüren kişisel yolculuğum sayesinde,
+                girişimlerin netlik, yaratıcılık ve sürdürülebilirlikle büyümesine destek oluyorum. Aynı zamanda
+                güçlü bir beden, güçlü bir zihin ve güçlü bir iş kurma konusunda öğrendiklerimi — ve hâlâ
+                öğrenmeye devam ettiklerimi — paylaşıyorum.
+              </p>
+
               <Link href="/iletisim" 
                     className="inline-block font-josefin text-black hover:text-gray-600 transition-all"
                     style={{ 
@@ -183,34 +192,6 @@ export default function Home() {
       <section className="bg-gray-50" style={{ padding: '5vmax 0' }}>
         <div className="w-full px-[4vw]">
           <div className="max-w-[1400px] mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              {/* Text Column */}
-              <div>
-              <p className="font-josefin text-gray-600 mb-6"
-                 style={{ fontSize: '1.54rem', lineHeight: 1.7, fontWeight: 200 }}>
-                Ben Dr. Esra Çavuşoğlu — klinik psikolog, girişimci, uluslararası konuşmacı ve Türkiye'nin ilk biohacker'ıyım.
-              </p>
-              <p className="font-josefin text-gray-600"
-                 style={{ fontSize: '1.375rem', lineHeight: 1.7 }}>
-                30 yıla yakın iş deneyimim ve liderlik ile yaşam tarzımı dönüştüren kişisel yolculuğum sayesinde,
-                girişimlerin netlik, yaratıcılık ve sürdürülebilirlikle büyümesine destek oluyorum. Aynı zamanda
-                güçlü bir beden, güçlü bir zihin ve güçlü bir iş kurma konusunda öğrendiklerimi — ve hâlâ
-                öğrenmeye devam ettiklerimi — paylaşıyorum.
-              </p>
-              </div>
-
-              {/* Image Column */}
-              <div className="relative w-full">
-                <div className="aspect-[4/5] relative">
-                  <Image
-                    src="/images/_ELD3728ddd.jpg"
-                    alt="Dr. Esra Çavuşoğlu"
-                    fill
-                    className="object-cover rounded-lg"
-                  />
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
