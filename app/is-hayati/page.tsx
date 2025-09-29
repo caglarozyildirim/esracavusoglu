@@ -236,29 +236,29 @@ export default function IsHayatiPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-black text-white" style={{ padding: '5vmax 0' }}>
+      <section className="bg-black" style={{ padding: '4vmax 0' }}>
         <div className="w-full px-[4vw]">
-          <div className="max-w-[900px] mx-auto text-center">
-            <h2 className="font-josefin text-white mb-8" 
+          <div className="max-w-[1400px] mx-auto text-center">
+            <h2 className="font-josefin text-white mb-6"
                 style={{ fontSize: 'clamp(2.2rem, 4.4vw, 3.3rem)', fontWeight: 200, letterSpacing: '-0.02em' }}>
-              "Birlikte çalışalım. Değerli ve anlamlı projeler için yola çıkıyorsanız, gelin konuşalım."
+              Gelin Konuşalım
             </h2>
-            <p className="font-josefin text-white/80 mb-12"
+            <p className="font-josefin text-white/80 mb-8 max-w-[700px] mx-auto"
                style={{ fontSize: '1.25rem', lineHeight: 1.7, fontWeight: 200 }}>
-              Uluslararası deneyimimle bireylere, şirketlere ve kurumlara rehberlik ediyor; 
-              bilgiyi stratejiye, stratejiyi de somut etkiye dönüştürüyorum.
+              Projeleriniz, iş birlikleriniz ve danışmanlık talepleriniz için benimle iletişime geçin.
             </p>
-            <Link href="/iletisim" 
-                  className="inline-block font-josefin text-white hover:text-gray-300 transition-all"
-                  style={{ 
-                    fontSize: '0.825rem', 
-                    fontWeight: 300, 
-                    letterSpacing: '0.2em', 
+            <Link href="/iletisim"
+                  className="inline-block font-josefin text-white hover:opacity-90 transition-opacity"
+                  style={{
+                    fontSize: '0.95rem',
+                    fontWeight: 400,
+                    letterSpacing: '0.2em',
                     textTransform: 'uppercase',
-                    borderBottom: '1px solid #fff',
-                    paddingBottom: '4px'
+                    backgroundColor: '#E63946',
+                    padding: '16px 40px',
+                    borderRadius: '4px'
                   }}>
-              İŞ BİRLİĞİ İÇİN BENİMLE İLETİŞİME GEÇİN
+              İLETİŞİME GEÇ
             </Link>
           </div>
         </div>
