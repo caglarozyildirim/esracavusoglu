@@ -63,15 +63,31 @@ export default function IsHayatiPage() {
               Size Nasıl Destek Olabilirim?
             </h2>
             
-            <p className="font-josefin text-gray-600 text-center max-w-[900px] mx-auto mb-16"
+            <p className="font-josefin text-gray-600 text-center max-w-[900px] mx-auto mb-8"
                style={{ fontSize: '1.25rem', lineHeight: 1.7, fontWeight: 200 }}>
-              Uzmanlığım; bağımlılık tedavisi, sağlıklı yaşam, longevity ve biohacking üzerine 
-              bireylere, kurumlara ve şirketlere rehberlik etmek. İster kliniklere danışmanlık 
-              sağlarken, ister markalarla iş birliği yaparken, ister uluslararası sahnelerde 
-              konuşmacı olarak yer alırken amacım her zaman bilgiyle değer yaratmak ve 
+              Uzmanlığım; bağımlılık tedavisi, sağlıklı yaşam, longevity ve biohacking üzerine
+              bireylere, kurumlara ve şirketlere rehberlik etmek. İster kliniklere danışmanlık
+              sağlarken, ister markalarla iş birliği yaparken, ister uluslararası sahnelerde
+              konuşmacı olarak yer alırken amacım her zaman bilgiyle değer yaratmak ve
               dönüşüme ilham olmak.
             </p>
-            
+
+            <div className="text-center">
+              <Link href="/iletisim"
+                    className="inline-block font-josefin text-white hover:opacity-90 transition-opacity"
+                    style={{
+                      fontSize: '0.95rem',
+                      fontWeight: 400,
+                      letterSpacing: '0.2em',
+                      textTransform: 'uppercase',
+                      backgroundColor: '#E63946',
+                      padding: '16px 40px',
+                      borderRadius: '4px'
+                    }}>
+                GELİN KONUŞALIM
+              </Link>
+            </div>
+
           </div>
         </div>
       </section>
