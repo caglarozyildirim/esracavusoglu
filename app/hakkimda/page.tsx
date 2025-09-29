@@ -178,6 +178,22 @@ export default function HakkimdaPage() {
                     Türkiye'de bir ilk olan bağımlılık tedavisi modelini tasarladım, bu alandaki derneği kurdum ve
                     "Ayık Kafa" YouTube kanalım aracılığıyla koruyucu sağlık bilincini daha geniş kitlelerle paylaşıyorum.
                   </p>
+
+                  <div className="mt-8">
+                    <Link href="/iletisim"
+                          className="inline-block font-josefin text-white hover:opacity-90 transition-opacity"
+                          style={{
+                            fontSize: '0.95rem',
+                            fontWeight: 400,
+                            letterSpacing: '0.2em',
+                            textTransform: 'uppercase',
+                            backgroundColor: '#E63946',
+                            padding: '16px 40px',
+                            borderRadius: '4px'
+                          }}>
+                      GELİN KONUŞALIM
+                    </Link>
+                  </div>
                 </div>
               </div>
 
@@ -243,6 +259,22 @@ export default function HakkimdaPage() {
                     yazılarımla da paylaşıyorum. Amacım, her bireyin kendi potansiyelini keşfetmesine
                     yardımcı olmak.
                   </p>
+
+                  <div className="mt-8">
+                    <Link href="/iletisim"
+                          className="inline-block font-josefin text-white hover:opacity-90 transition-opacity"
+                          style={{
+                            fontSize: '0.95rem',
+                            fontWeight: 400,
+                            letterSpacing: '0.2em',
+                            textTransform: 'uppercase',
+                            backgroundColor: '#E63946',
+                            padding: '16px 40px',
+                            borderRadius: '4px'
+                          }}>
+                      GELİN KONUŞALIM
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>

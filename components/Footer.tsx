@@ -64,8 +64,11 @@ export default function Footer() {
                          style={{ fontSize: '1.203125rem', fontWeight: 200 }}>İŞ HAYATI</Link></li>
                 <li><Link href="/kisisel" className="font-josefin text-white/80 hover:text-white transition-colors" 
                          style={{ fontSize: '1.203125rem', fontWeight: 200 }}>KİŞİSEL</Link></li>
-                <li><Link href="/ayikkafa" className="font-josefin text-white/80 hover:text-white transition-colors"
-                         style={{ fontSize: '1.203125rem', fontWeight: 200 }}>AYIK KAFA</Link></li>
+                <li><a href="https://www.longevilab.com/k/izle"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       className="font-josefin text-white/80 hover:text-white transition-colors"
+                       style={{ fontSize: '1.203125rem', fontWeight: 200 }}>AYIK KAFA</a></li>
               </ul>
             </div>
             

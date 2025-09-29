@@ -78,14 +78,30 @@ export default function KisiselPage() {
                   bilinçli bir yaşam için bilimin ışığında yeni yolları keşfetmeye tutkuyla bağlıyım. 
                   İşte bu yüzden Ayık Kafa YouTube kanalımı hayata geçirdim.
                 </p>
-                <p className="font-josefin text-gray-600"
+                <p className="font-josefin text-gray-600 mb-8"
                    style={{ fontSize: '1.2375rem', lineHeight: 1.8, fontWeight: 200 }}>
-                  Ayık Kafa podcast'lerimde dünyanın farklı yerlerinden bilim insanlarını, doktorları 
-                  ve uzmanları konuk ederek; bağımlılıktan longevity'e, fonksiyonel tıptan biohacking'e, 
-                  estetik uygulamalardan yenilikçi tedavilere kadar birçok konuyu ele alıyoruz. 
-                  Tek amacım, insanlara doğru bilgiyi ulaştırmak ve yaşam kalitelerini artıracak 
+                  Ayık Kafa podcast'lerimde dünyanın farklı yerlerinden bilim insanlarını, doktorları
+                  ve uzmanları konuk ederek; bağımlılıktan longevity'e, fonksiyonel tıptan biohacking'e,
+                  estetik uygulamalardan yenilikçi tedavilere kadar birçok konuyu ele alıyoruz.
+                  Tek amacım, insanlara doğru bilgiyi ulaştırmak ve yaşam kalitelerini artıracak
                   ilhamı vermek.
                 </p>
+
+                <div className="text-center">
+                  <Link href="/iletisim"
+                        className="inline-block font-josefin text-white hover:opacity-90 transition-opacity"
+                        style={{
+                          fontSize: '0.95rem',
+                          fontWeight: 400,
+                          letterSpacing: '0.2em',
+                          textTransform: 'uppercase',
+                          backgroundColor: '#E63946',
+                          padding: '16px 40px',
+                          borderRadius: '4px'
+                        }}>
+                    GELİN KONUŞALIM
+                  </Link>
+                </div>
               </div>
             </div>
 
