@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e63113c-a3c5-4d33-b0a5-e9fd012e674b" name="Changes" comment="final v2" />
+    <list default="true" id="9e63113c-a3c5-4d33-b0a5-e9fd012e674b" name="Changes" comment="Add privacy and terms pages with legal content&#10;&#10;- Created privacy page with comprehensive personal data policy&#10;- Created terms page with detailed cookie policy&#10;- Both pages follow existing design patterns with font-josefin styling&#10;&#10;🤖 Generated with [Claude Code](https://claude.com/claude-code)&#10;&#10;Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +86,7 @@
       <workItem from="1757579574663" duration="11157000" />
       <workItem from="1757660436883" duration="25345000" />
       <workItem from="1758612287432" duration="3613000" />
-      <workItem from="1759062475971" duration="24278000" />
+      <workItem from="1759062475971" duration="28756000" />
     </task>
     <task id="LOCAL-00001" summary="logolar tasarlandı.">
       <option name="closed" value="true" />
@@ -128,7 +128,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759078389323</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="final v3">
+      <option name="closed" value="true" />
+      <created>1759165679784</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759165679784</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add privacy and terms pages with legal content&#10;&#10;- Created privacy page with comprehensive personal data policy&#10;- Created terms page with detailed cookie policy&#10;- Both pages follow existing design patterns with font-josefin styling&#10;&#10;🤖 Generated with [Claude Code](https://claude.com/claude-code)&#10;&#10;Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;">
+      <option name="closed" value="true" />
+      <created>1759170578387</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759170578388</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +156,9 @@
     <MESSAGE value="görsel düzenleme öncesi commit" />
     <MESSAGE value="final" />
     <MESSAGE value="final v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="final v2" />
+    <MESSAGE value="final v3" />
+    <MESSAGE value="final v4" />
+    <MESSAGE value="Add privacy and terms pages with legal content&#10;&#10;- Created privacy page with comprehensive personal data policy&#10;- Created terms page with detailed cookie policy&#10;- Both pages follow existing design patterns with font-josefin styling&#10;&#10; Generated with [Claude Code](https://claude.com/claude-code)&#10;&#10;Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add privacy and terms pages with legal content&#10;&#10;- Created privacy page with comprehensive personal data policy&#10;- Created terms page with detailed cookie policy&#10;- Both pages follow existing design patterns with font-josefin styling&#10;&#10; Generated with [Claude Code](https://claude.com/claude-code)&#10;&#10;Co-Authored-By: Claude &lt;noreply@anthropic.com&gt;" />
   </component>
 </project>
