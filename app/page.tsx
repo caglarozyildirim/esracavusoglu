@@ -29,13 +29,11 @@ export default function Home() {
               
               <p className="font-josefin text-gray-600 mb-6"
                  style={{ fontSize: '1.65rem', lineHeight: 1.5, fontWeight: 300 }}>
-                Sağlık Savunucusu | Girişimci | Danışman | Biohacker
+                Sağlık Savunucusu | Podcaster | Girişimci | Danışman | Biohacker
               </p>
 
               <p className="font-josefin text-gray-600 mb-8"
                  style={{ fontSize: '1.375rem', lineHeight: 1.7, fontWeight: 300 }}>
-                Ben Dr. Esra Çavuşoğlu — klinik psikolog, girişimci, uluslararası konuşmacı ve Türkiye'nin ilk biohacker'ıyım.
-                <br /><br />
                 30 yıla yakın iş deneyimim ve liderlik ile yaşam tarzımı dönüştüren kişisel yolculuğum sayesinde,
                 girişimlerin netlik, yaratıcılık ve sürdürülebilirlikle büyümesine destek oluyorum. Aynı zamanda
                 güçlü bir beden, güçlü bir zihin ve güçlü bir iş kurma konusunda öğrendiklerimi — ve hâlâ

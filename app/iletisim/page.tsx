@@ -1,20 +1,61 @@
 'use client';
 
+import { useState, FormEvent } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export default function IletisimPage() {
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    connectionPurpose: '',
+    message: ''
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitMessage, setSubmitMessage] = useState('');
+
+  const handleSubmit = async (e: FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitMessage('');
+
+    try {
+      const response = await fetch(
+        `https://esracavusoglu.butterfly.dev/api/contact?first_name=${encodeURIComponent(formData.firstName)}&last_name=${encodeURIComponent(formData.lastName)}&connection_purpose=${formData.connectionPurpose}&email=${encodeURIComponent(formData.email)}&message=${encodeURIComponent(formData.message)}`,
+        { method: 'POST' }
+      );
+
+      if (response.ok) {
+        setSubmitMessage('Mesajınız başarıyla gönderildi!');
+        setFormData({
+          firstName: '',
+          lastName: '',
+          email: '',
+          connectionPurpose: '',
+          message: ''
+        });
+      } else {
+        setSubmitMessage('Bir hata oluştu. Lütfen tekrar deneyin.');
+      }
+    } catch (error) {
+      setSubmitMessage('Bir hata oluştu. Lütfen tekrar deneyin.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <>
       <Header />
-      
+
       {/* Hero Section */}
       <section className="bg-black text-white min-h-[40vh] flex items-center" style={{ paddingTop: '72px' }}>
         <div className="w-full px-[4vw] py-20">
           <div className="max-w-[1400px] mx-auto">
-            <h1 className="font-josefin text-white" 
-                style={{ 
-                  fontSize: 'clamp(2.75rem, 5.5vw, 4.95rem)', 
+            <h1 className="font-josefin text-white"
+                style={{
+                  fontSize: 'clamp(2.75rem, 5.5vw, 4.95rem)',
                   fontWeight: 200,
                   lineHeight: 1.1,
                   letterSpacing: '-0.02em'
@@ -34,9 +75,9 @@ export default function IletisimPage() {
       <section className="bg-white" style={{ padding: '3.3vmax 0' }}>
         <div className="w-full px-[4vw]">
           <div className="max-w-[900px] mx-auto">
-            
+
             {/* Contact Form */}
-            <form className="space-y-8">
+            <form onSubmit={handleSubmit} className="space-y-8">
               {/* Name Fields */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
@@ -44,8 +85,10 @@ export default function IletisimPage() {
                          style={{ fontSize: '0.9625rem', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
                     Ad *
                   </label>
-                  <input type="text" 
+                  <input type="text"
                          required
+                         value={formData.firstName}
+                         onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
                          className="w-full font-josefin border-b border-black/20 pb-2 focus:border-black transition-colors outline-none"
                          style={{ fontSize: '1.1rem' }}
                          placeholder="Adınız" />
@@ -55,22 +98,26 @@ export default function IletisimPage() {
                          style={{ fontSize: '0.9625rem', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
                     Soyad *
                   </label>
-                  <input type="text" 
+                  <input type="text"
                          required
+                         value={formData.lastName}
+                         onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
                          className="w-full font-josefin border-b border-black/20 pb-2 focus:border-black transition-colors outline-none"
                          style={{ fontSize: '1.1rem' }}
                          placeholder="Soyadınız" />
                 </div>
               </div>
-              
+
               {/* Email */}
               <div>
                 <label className="font-josefin text-black block mb-2"
                        style={{ fontSize: '0.875rem', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
                   E-posta *
                 </label>
-                <input type="email" 
+                <input type="email"
                        required
+                       value={formData.email}
+                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                        className="w-full font-josefin border-b border-black/20 pb-2 focus:border-black transition-colors outline-none"
                        style={{ fontSize: '1rem' }}
                        placeholder="ornek@email.com" />
@@ -83,82 +130,114 @@ export default function IletisimPage() {
                   Bağlantı Amacınız *
                 </label>
                 <div className="space-y-3">
-                  <label className="flex items-center">
-                    <input type="checkbox" className="mr-3" />
+                  <label className="flex items-center cursor-pointer">
+                    <input
+                      type="radio"
+                      name="connectionPurpose"
+                      value="1"
+                      checked={formData.connectionPurpose === '1'}
+                      onChange={(e) => setFormData({ ...formData, connectionPurpose: e.target.value })}
+                      className="mr-3"
+                      required
+                    />
                     <span className="font-josefin text-gray-700" style={{ fontSize: '1.045rem' }}>
                       Danışmanlık veya terapi
                     </span>
                   </label>
-                  <label className="flex items-center">
-                    <input type="checkbox" className="mr-3" />
+                  <label className="flex items-center cursor-pointer">
+                    <input
+                      type="radio"
+                      name="connectionPurpose"
+                      value="2"
+                      checked={formData.connectionPurpose === '2'}
+                      onChange={(e) => setFormData({ ...formData, connectionPurpose: e.target.value })}
+                      className="mr-3"
+                    />
                     <span className="font-josefin text-gray-700" style={{ fontSize: '1.045rem' }}>
                       Kurumsal işbirliği
                     </span>
                   </label>
-                  <label className="flex items-center">
-                    <input type="checkbox" className="mr-3" />
+                  <label className="flex items-center cursor-pointer">
+                    <input
+                      type="radio"
+                      name="connectionPurpose"
+                      value="3"
+                      checked={formData.connectionPurpose === '3'}
+                      onChange={(e) => setFormData({ ...formData, connectionPurpose: e.target.value })}
+                      className="mr-3"
+                    />
                     <span className="font-josefin text-gray-700" style={{ fontSize: '1.045rem' }}>
                       Konuşma veya podcast daveti
                     </span>
                   </label>
-                  <label className="flex items-center">
-                    <input type="checkbox" className="mr-3" />
+                  <label className="flex items-center cursor-pointer">
+                    <input
+                      type="radio"
+                      name="connectionPurpose"
+                      value="4"
+                      checked={formData.connectionPurpose === '4'}
+                      onChange={(e) => setFormData({ ...formData, connectionPurpose: e.target.value })}
+                      className="mr-3"
+                    />
                     <span className="font-josefin text-gray-700" style={{ fontSize: '1.045rem' }}>
                       Eğitim ve seminer talebi
                     </span>
                   </label>
-                  <label className="flex items-center">
-                    <input type="checkbox" className="mr-3" />
+                  <label className="flex items-center cursor-pointer">
+                    <input
+                      type="radio"
+                      name="connectionPurpose"
+                      value="5"
+                      checked={formData.connectionPurpose === '5'}
+                      onChange={(e) => setFormData({ ...formData, connectionPurpose: e.target.value })}
+                      className="mr-3"
+                    />
                     <span className="font-josefin text-gray-700" style={{ fontSize: '1.045rem' }}>
                       Diğer
                     </span>
                   </label>
                 </div>
               </div>
-              
+
               {/* Message */}
               <div>
                 <label className="font-josefin text-black block mb-2"
                        style={{ fontSize: '0.875rem', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
                   Mesajınız *
                 </label>
-                <textarea required
-                          rows={6}
-                          className="w-full font-josefin border border-black/20 p-4 focus:border-black transition-colors outline-none resize-none"
-                          style={{ fontSize: '1.1rem' }}
-                          placeholder="Mesajınızı buraya yazın..." />
+                <textarea
+                  required
+                  rows={6}
+                  value={formData.message}
+                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                  className="w-full font-josefin border border-black/20 p-4 focus:border-black transition-colors outline-none resize-none"
+                  style={{ fontSize: '1.1rem' }}
+                  placeholder="Mesajınızı buraya yazın..."
+                />
               </div>
-              
-              {/* File Upload */}
-              <div>
-                <label className="font-josefin text-black block mb-2"
-                       style={{ fontSize: '0.875rem', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-                  Dosya Ekle (Opsiyonel)
-                </label>
-                <input type="file" 
-                       multiple
-                       accept=".pdf,.doc,.docx,.jpg,.png"
-                       className="font-josefin text-gray-600"
-                       style={{ fontSize: '0.875rem' }} />
-                <p className="font-josefin text-gray-500 mt-2" style={{ fontSize: '0.825rem' }}>
-                  En fazla 2 dosya yükleyebilirsiniz
-                </p>
-              </div>
-              
+
               {/* Submit Button */}
               <div className="pt-8">
-                <button type="submit"
-                        className="font-josefin text-black hover:text-gray-600 transition-all"
-                        style={{ 
-                          fontSize: '0.825rem',
-                          fontWeight: 300,
-                          letterSpacing: '0.2em',
-                          textTransform: 'uppercase',
-                          borderBottom: '1px solid #000',
-                          paddingBottom: '4px'
-                        }}>
-                  GÖNDER
+                <button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="font-josefin text-black hover:text-gray-600 transition-all disabled:opacity-50"
+                  style={{
+                    fontSize: '0.825rem',
+                    fontWeight: 300,
+                    letterSpacing: '0.2em',
+                    textTransform: 'uppercase',
+                    borderBottom: '1px solid #000',
+                    paddingBottom: '4px'
+                  }}>
+                  {isSubmitting ? 'GÖNDERİLİYOR...' : 'GÖNDER'}
                 </button>
+                {submitMessage && (
+                  <p className={`font-josefin mt-4 ${submitMessage.includes('başarıyla') ? 'text-green-600' : 'text-red-600'}`}
+                     style={{ fontSize: '1rem' }}>
+                    {submitMessage}
+                  </p>
+                )}
               </div>
             </form>
             
@@ -241,12 +320,12 @@ export default function IletisimPage() {
                    style={{ fontSize: '1.375rem', lineHeight: 1.7, fontWeight: 200 }}>
                   Sizin veya sevdiğiniz birinin iyileşme yolculuğunda yanınızda olmak için buradayım.
                 </p>
-                <a href="mailto:hello@esracavusoglu.com" 
+                <a href="mailto:hello@longevilab.com"
                    className="inline-block font-josefin text-black hover:text-gray-600 transition-all"
-                   style={{ 
-                     fontSize: '0.825rem', 
-                     fontWeight: 300, 
-                     letterSpacing: '0.2em', 
+                   style={{
+                     fontSize: '0.825rem',
+                     fontWeight: 300,
+                     letterSpacing: '0.2em',
                      textTransform: 'uppercase',
                      borderBottom: '1px solid #000',
                      paddingBottom: '4px'

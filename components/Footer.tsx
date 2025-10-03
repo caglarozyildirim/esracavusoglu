@@ -11,14 +11,11 @@ export default function Footer() {
             
             {/* Brand Column */}
             <div className="lg:col-span-2">
-              <Link href="/" className="font-josefin text-white inline-block mb-8"
-                    style={{ fontSize: '1.71875rem', fontWeight: 200, letterSpacing: '-0.02em' }}>
-                <span style={{ color: '#E63946' }}>Esra Çavuşoğlu.</span>
-              </Link>
-              
-              <p className="font-josefin text-white/80 mb-8 max-w-lg"
+              <p className="font-josefin mb-8 max-w-lg"
                  style={{ fontSize: '1.375rem', lineHeight: 1.7, fontWeight: 200 }}>
-                Klinik psikolog, girişimci, uluslararası konuşmacı ve Türkiye'nin ilk biohacker'ı.
+                <span style={{ color: '#E63946' }}>Ben Dr. Esra Çavuşoğlu</span>
+                <br />
+                <span className="text-white/80">klinik psikolog, podcaster, girişimci, uluslararası konuşmacı ve Türkiye'nin ilk biohacker'ıyım.</span>
               </p>
               
               
@@ -80,9 +77,9 @@ export default function Footer() {
               </h3>
               <ul className="space-y-3">
                 <li>
-                  <a href="mailto:hello@esracavusoglu.com" className="font-josefin text-white/80 hover:text-white transition-colors"
+                  <a href="mailto:hello@longevilab.com" className="font-josefin text-white/80 hover:text-white transition-colors"
                      style={{ fontSize: '1.203125rem', fontWeight: 200 }}>
-                    hello@esracavusoglu.com
+                    hello@longevilab.com
                   </a>
                 </li>
                 <li>
